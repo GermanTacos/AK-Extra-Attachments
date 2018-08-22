@@ -30,4 +30,8 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30" : "30 Round Waffle Magazine",
 	
+	"bm_wp_wpn_fps_ass_heffy_762_ch_ak117"  : "AK117 Bolt",
+	
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_warrior" : "Warrior Foregrip"
+	
 }
