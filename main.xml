@@ -146,6 +146,17 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- SHOVEL -->
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_st_sho" based_on="wpn_fps_ass_flint_body_upperreceiver" type="stock" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_st_sho" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
 	<!-- BLACK OPS -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_ro_blops" based_on="wpn_fps_ass_flint_body_upperreceiver" type="rear_sight" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_blops" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -307,7 +318,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<!-- AK117 -->
+	<!-- AK 117 -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_ch_ak117" based_on="wpn_fps_ass_flint_dh_standard" type="drag_handle" unit="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/wpn_fps_ass_heffy_762_ch_ak117" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats/>
@@ -317,7 +328,7 @@
 		<pcs/>
 	</WeaponMod>
 		
-	<!-- Warrior 74 -->
+	<!-- WARRIOR 74 -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_lfg_warrior" based_on="wpn_fps_ass_flint_body_upperreceiver" type="foregrip_lower" unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_lfg_warrior" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
@@ -645,7 +656,7 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_100"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_100_thq"/>
 		
-		<!-- AK117 -->
+		<!-- AK 117 PTS -->
 		
 		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/ak117_body_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/ak117_body_nm"/>
@@ -658,7 +669,7 @@
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/wpn_fps_ass_heffy_762_ch_ak117"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/wpn_fps_ass_heffy_762_ch_ak117"/>
 		
-		<!-- Warrior 74 -->
+		<!-- WARRIOR PTS -->
 		
 		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/warrior_body_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/warrior_body_nm"/>
@@ -670,6 +681,19 @@
 		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_lfg_warrior"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_lfg_warrior"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_lfg_warrior"/>
+		
+		<!-- SHOVEL PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/shovel_stock_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/shovel_stock_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/shovel_stock"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/shovel_stock_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_st_sho"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_st_sho"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_st_sho"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_st_sho"/>
 		
 		<!-- Shared -->
 		
