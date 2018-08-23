@@ -30,6 +30,10 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_8"   : "8 Round Steel Magazine",
 	
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_180" : "180 Round Steel Magazine",
+	
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_260" : "260 Round Steel Magazine",
+	
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30"   : "30 Round Waffle Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_ch_ak117"    : "AK117 Bolt",
