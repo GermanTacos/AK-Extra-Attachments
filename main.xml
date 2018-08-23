@@ -270,6 +270,14 @@
 	
 	<!-- STEEL MEME MAGS -->
 	
+	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_8" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo_new="-22" concealment="4" reload="2"/>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_50" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_50" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo="10" concealment="-4" reload="-1"/>
 		<weapons>
@@ -614,6 +622,13 @@
 		
 		<!-- MEME MAG PTS -->
 		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8_thq"/>
+	
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_50"/>
 		<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_50"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_50"/>
