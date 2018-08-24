@@ -362,6 +362,7 @@
 			<wpn_fps_ass_heffy_545_ro_ak74 	unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_heffy_762_lfgc_ak47 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_heffy_762_ufgc_ak47 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_heffy_762_rsb_ak47 unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
 			<wpn_fps_ass_heffy_762_ba_ak47 	a_obj="a_b_war"/>
 			<wpn_fps_ass_heffy_762_fo_akm 	a_obj="a_b_war"/>
 		</override>
@@ -752,6 +753,14 @@
 		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
 		
 	</AddFiles>
 	
