@@ -1,0 +1,2 @@
+- [ ] Add Warrior Sights
+- [ ] Add wftd for Warrior FG (Barrel position, forbids)
