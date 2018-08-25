@@ -1,2 +1,4 @@
-- [ ] Add Warrior Sights
+- [x] Add Warrior Sights
+- [ ] Add working textures for Warrior Sights 
 - [ ] Add wftd for Warrior FG (Barrel position, forbids)
+- [ ] Move GP25 here
