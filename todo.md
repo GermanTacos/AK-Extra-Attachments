@@ -1,0 +1,7 @@
+- [x] Add Warrior Sights
+- [ ] Get working textures for Warrior Sights 
+- [x] Add wftd for Warrior FG (Barrel position, forbids)
+- [ ] Move GP25 here
+- [ ] Update missing faces on the inside of the toprail of the Warrior FG
+- [ ] Add more forbids for Warrior FG
+- [ ] Add sight position on Warrior FG
