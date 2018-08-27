@@ -118,6 +118,14 @@ if ( self.heffy_762 ) then
         position = Vector3( 0, 11.4, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
+--- Scope Mount ---
+-- cover rail --
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_o_cover", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
 end
 end)
 
