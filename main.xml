@@ -183,6 +183,17 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- BLACK OPS - 750RPM FULL AUTO -->
+	<WeaponMod id="wpn_fps_ass_heffy_762_fm_blops" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="custom" sub_type="autofire" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+	   <stats damage="0"/>
+	   <custom_stats rof_mult="1.25"/> 
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+	   <pcs/>
+    </WeaponMod>
+	
+	
 	<!-- INSURGENCY -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_ro_ins" based_on="wpn_fps_ass_flint_body_upperreceiver" type="rear_sight" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_ins" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -351,6 +362,17 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- SOUND -->
+	
+	<WeaponMod id="wpn_fps_ass_heffy_762_so_blops" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+	<sound_switch suppressed="regular_a"/>
+	   <stats damage="0"/>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+	   <pcs/>
+    </WeaponMod>
+	
 	<!-- AK 117 -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_ch_ak117" based_on="wpn_fps_ass_flint_dh_standard" type="drag_handle" unit="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/wpn_fps_ass_heffy_762_ch_ak117" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -397,6 +419,37 @@
 	<!-- Shared -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_lfgc_ak47" based_on="wpn_fps_ass_flint_body_upperreceiver" type="foregrip_cap" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<!-- GRENADE LAUNCHER -->
+	<WeaponMod id="wpn_fps_ass_heffy_all_gl_gp25" based_on="wpn_fps_ass_contraband_gl_m203" type="underbarrel"  a_obj="a_gl" sub_type="grenade_launcher"  unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats concealment="-10" suppression="-10" recoil="2" total_ammo_mod="-10" />
+		<bullet_objects amount="1" prefix="g_grenade_"/>
+		<animations bipod_reload="reload_ul" />
+		<custom_stats ammo_pickup_max_mul="0.7" ammo_pickup_min_mul="0.8"/>
+		<override/>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+	    <pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_gl_gp25_sight_up" based_on="wpn_fps_gre_m79_sight_up" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up" type="gadget" sub_type="second_sight" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="0"/>
+		<stance_mod>
+			<wpn_fps_ass_heffy_762 translation="5.3 -2 4.9" rotation="0 -5 0"/>
+		</stance_mod>
+		<override>
+			<wpn_fps_ass_heffy_all_gl_gp25 unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		</override>
+	    <weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+    </WeaponMod>
 	
 	
 	<AddFiles directory="assets">
@@ -813,11 +866,40 @@
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"/>
 		
+		<!-- GL PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/gl25_body_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/gl25_body_nm"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/gl25_gr_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/gl25_gr_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25_sight_up_thq"/>
+		
 	</AddFiles>
 	
 	<Hooks directory="hooks">
-		<hook file="extra_ak762.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weaponfactorytweakdata_ak762.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
 	</Hooks>
 </table>
