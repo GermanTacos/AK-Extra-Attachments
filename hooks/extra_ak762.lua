@@ -526,11 +526,16 @@ for i, st_id in ipairs(non_grp_stocks) do
 		self:akpack_setup_forbid ( st_id, sp_id )
 	end
 end
+for i, st_id in ipairs(akmstock) do
+	for i, sp_id in ipairs(all_akex_stockpad) do
+		self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
+		self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+		self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+		self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
+	end
+end
 for i, sp_id in ipairs(all_akex_stockpad) do
-	self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[sp_id]  = {a_obj = "a_s_ak47"}
-	self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[sp_id] = {a_obj = "a_s_akmsu"}
-	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[sp_id] = {a_obj = "a_s_akmsu"}
-	self.parts.wpn_fps_ass_heffy_762_lr_m92.override[sp_id]   = {a_obj = "a_s_akmsu"}
+	self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_st_ak47", sp_id )
 end
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
