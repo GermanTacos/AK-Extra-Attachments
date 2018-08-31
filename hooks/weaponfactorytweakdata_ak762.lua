@@ -101,7 +101,7 @@ function WeaponFactoryTweakData:akpack_write_error( func, cause, error_id, value
 	end
 end 
 
-Hooks:PostHook( WeaponFactoryTweakData, "init", "AKEXTRAModInit", function(self)
+Hooks:PostHook( WeaponFactoryTweakData, "init", "AK47EXTRAModInit", function(self)
 
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Arrays- <A><K><E><X><T><R><A>----
@@ -253,16 +253,6 @@ local akmstock = {
 	"wpn_fps_ass_heffy_762_st_tabuk",
 	"wpn_fps_ass_heffy_762_st_rk62"
 }
-local non_grp_stocks = {
-	"wpn_fps_ass_heffy_762_st_2_mpi",
-	"wpn_fps_ass_heffy_762_st_3_mpi",
-	"wpn_fps_ass_heffy_762_st_amd65",
-	"wpn_fps_ass_heffy_762_st_rk62",
-	"wpn_fps_ass_heffy_762_st_rpk",
-	"wpn_fps_ass_heffy_762_st_akms",
-	"wpn_fps_ass_heffy_all_st_moe",
-	"wpn_fps_ass_heffy_all_st_sho"
-}
 --- Stock Pads ---
 local akmstockpad = {
 	"wpn_fps_ass_heffy_762_sp_mpi",
@@ -392,7 +382,7 @@ local akmgrips = {
 
 -----------------------------
 ------ Combined Arrays ------
-local non_grp_stocks = {
+local non_grp_stock = {
 	"wpn_fps_ass_heffy_762_st_2_mpi",
 	"wpn_fps_ass_heffy_762_st_3_mpi",
 	"wpn_fps_ass_heffy_762_st_amd65",
@@ -402,7 +392,7 @@ local non_grp_stocks = {
 	"wpn_fps_ass_heffy_all_st_moe",
 	"wpn_fps_ass_heffy_all_st_sho"
 }
-local combined_stockpads = {
+local combined_stockpad = {
 	"wpn_fps_ass_heffy_762_sp_mpi",
 	"wpn_fps_ass_heffy_762_sp_2_mpi",
 	"wpn_fps_ass_heffy_762_sp_akm",
@@ -496,12 +486,14 @@ for i, st_id in ipairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id]   = {a_obj = "a_s_akmsu"}
 	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] = {a_obj = "a_s_akmsu"}
 end
-
---- Scope Mount ---
-self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_sm_cover" )
---cover rail--
-for i, o_id in ipairs(all_akex_sight) do
-	self.parts.wpn_fps_ass_heffy_all_sm_cover.override[o_id] = {a_obj = "a_o_cover"}
+--Stockpad--
+for i, st_id in ipairs(akmstock) do
+	for i, sp_id in ipairs(all_akex_stockpad) do
+		self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
+		self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+		self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+		self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
+	end
 end
 
 ----------------------------------------------------------
@@ -512,26 +504,21 @@ end
 ----<A><K><E><X><T><R><A> -Forbids- <A><K><E><X><T><R><A>----
 -------------------------------------------------------------
 --- LFG ---
+--Warrior forbids (Added Override)--
 for i, ufg_id in ipairs(all_ak47upperforegrip) do
 	if ufg_id ~= "wpn_fps_ass_heffy_762_ufg_ak47" then
 		self:akpack_setup_forbid( ufg_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
+	else
+		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ufg_id] = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 	end
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akmsu", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_m92", "wpn_fps_ass_heffy_all_lfg_warrior" )
 
 --- Stockpad ---
-for i, st_id in ipairs(non_grp_stocks) do
-	for sp_id in ipairs(combined_stockpads) do
+for i, st_id in ipairs(non_grp_stock) do
+	for sp_id in ipairs(combined_stockpad) do
 		self:akpack_setup_forbid ( st_id, sp_id )
-	end
-end
-for i, st_id in ipairs(akmstock) do
-	for i, sp_id in ipairs(all_akex_stockpad) do
-		self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
-		self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
-		self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
-		self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
 	end
 end
 for i, sp_id in ipairs(all_akex_stockpad) do
@@ -563,8 +550,8 @@ if BeardLib.Utils:FindMod("Custom underbarrels for custom weapons") then
 		}
 	)
 else 
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_hold_override.bm_w_ak47 = "contraband"
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_stance_override.bm_w_ak47 = "gl25_gl"
+	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_hold_override.bm_w_heffy_762 	= "contraband"
+	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_stance_override.bm_w_heffy_762 	= "gl25_gl"
 	
 	self.parts.wpn_fps_ass_heffy_all_gl_gp25.override.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_heffy_762 = {
 				translation = Vector3(-1.05, 0, -12.67),

@@ -220,6 +220,14 @@ local all_akex_grips = {
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
+
+
+--- Scope Mount ---
+self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_sm_cover" )
+--cover rail--
+for i, o_id in ipairs(all_akex_sight) do
+	self.parts.wpn_fps_ass_heffy_all_sm_cover.override[o_id] = {a_obj = "a_o_cover"}
+end
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
 ----------------------------------------------------------
