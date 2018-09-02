@@ -216,6 +216,10 @@ local all_akex_grips = {
 ---- END ARRAYS END ----
 ------------------------
 
+
+
+if ( self.wpn_fps_ass_heffy_545 ) then
+
 --- Stocks ---
 local all_ak74stock = {
 	"wpn_fps_ass_heffy_545_st_ak74",
@@ -351,10 +355,11 @@ local ak74grips = {
 	"wpn_fps_ass_heffy_545_pg_mpi"
 }
 
-
-if ( self.wpn_fps_ass_heffy_545 ) then
-
-
+local non_grp_stock = { 
+	"wpn_fps_ass_heffy_545_st_aks74",
+	"wpn_fps_ass_heffy_all_st_moe",
+	"wpn_fps_ass_heffy_all_st_sho"
+}
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
@@ -372,7 +377,7 @@ for i, ba_id in ipairs(ak74barrel) do
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id].override[fo_id] = {a_obj = "a_fo_war_std"}
 	end
 end
-for i, fo_id in ipairs(all_ak74barrel) do
+for i, fo_id in ipairs(all_ak74fo) do
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_rpk74.override[fo_id]  = {a_obj = "a_fo_war_rpk"}
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_aks74u.override[fo_id] = {a_obj = "a_fo_war_aks74u"}
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_ak105.override[fo_id]  = {a_obj = "a_fo_war_ak105"}
@@ -399,6 +404,9 @@ for i, ext_id in ipairs(all_ak74ext) do
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_rpk74.override[ext_id] = {a_obj = "a_ns_war_rpk"}
 	end
 end
+-- Warrior Overrides --
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ufg_ak74 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ro_ak74  = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -435,6 +443,12 @@ for i, st_id in ipairs(non_grp_stock) do
 	for sp_id in ipairs(all_akex_stockpad) do
 		self:akpack_setup_forbid ( st_id, sp_id )
 	end
+end
+for i, st_id in ipairs(all_ak74stock) do
+		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] or {}
+		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] or {}
+		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
+		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
 end
 for i, st_id in ipairs(all_ak74stock) do
 	for i, sp_id in ipairs(all_akex_stockpad) do

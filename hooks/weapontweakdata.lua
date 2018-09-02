@@ -5,6 +5,15 @@ Hooks:PostHook( WeaponTweakData, "init", "AKEXTRAModInit", function(self)
 
 ---- AK 762 ----
 if ( self.heffy_762 ) then
+
+--- Base stuff ---	
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_glo", 
+        base_a_obj = "a_body", 
+        position = Vector3( -3, 44.5, 1 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	
 --- Front sights ---
 -- Override by lfg ---
 	self:SetupAttachmentPoint("heffy_762", {
@@ -130,6 +139,15 @@ end
 
 ---- AK 545 ----
 if ( self.heffy_545 ) then
+
+--- Base stuff ---	
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_glo", 
+        base_a_obj = "a_body", 
+        position = Vector3( -3, 44.5, 1 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	
 --- Front sights ---
 -- Override by lfg ---
 	self:SetupAttachmentPoint("heffy_545", {
@@ -192,6 +210,62 @@ if ( self.heffy_545 ) then
 --- Scope Mount ---
 -- cover rail --
 	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_o_cover", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+end
+
+---- AK 556 ----
+if ( self.heffy_556 ) then
+
+--- Base stuff ---	
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_glo", 
+        base_a_obj = "a_body", 
+        position = Vector3( -3, 44.5, 1 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	
+--- Front sights ---
+-- Override by lfg ---
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_fo_war_std", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, 10.5, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_fo_war_ak102", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, 0, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+--- Barrel positions with different FGs ---
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_b_war", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, 10.5, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+--- Barrel extensions ---
+-- Default positions --
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_ns_war_std", 
+        base_a_obj = "a_ns", 
+        position = Vector3( 0, 15.8, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_ns_war_ak102", 
+        base_a_obj = "a_ns", 
+        position = Vector3( 0, 5.2, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+--- Scope Mount ---
+-- cover rail --
+	self:SetupAttachmentPoint("heffy_556", {
 		name = "a_o_cover", 
         base_a_obj = "a_o", 
         position = Vector3( 0, -7, 0 ), 

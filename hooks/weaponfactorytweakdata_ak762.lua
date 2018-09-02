@@ -469,6 +469,12 @@ for i, ext_id in ipairs(all_ak47ext) do
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ba_amd65.override[ext_id] = {a_obj = "a_ns_war_amd65"}
 	end
 end
+-- Warrior Overrides --
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufg_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufgc_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lfgc_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_rsb_ak47 = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ro_akm = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -530,6 +536,11 @@ end
 
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
+-- Underbarrel sight
+self.parts.wpn_fps_ass_heffy_all_gl_gp25_sight_up.stance_mod.wpn_fps_ass_heffy_762 = {
+				translation = Vector3(4.3, -2, 4),
+				rotation = Rotation(0, -3.5, 0)
+			}
 -----------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Underbarrel- <A><K><E><X><T><R><A>----
 -----------------------------------------------------------------
