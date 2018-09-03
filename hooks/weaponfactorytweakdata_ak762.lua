@@ -218,6 +218,27 @@ local all_akex_grips = {
 
 if ( self.wpn_fps_ass_heffy_762 ) then
 
+--- Lower ---
+local all_ak47lower = {
+	"wpn_fps_ass_heffy_762_lr_akm",
+	"wpn_fps_ass_heffy_762_lr_rpk",
+	"wpn_fps_ass_heffy_762_lr_vepr",
+	"wpn_fps_ass_heffy_762_lr_ak103",
+	"wpn_fps_ass_heffy_762_lr_ak47",
+	"wpn_fps_ass_heffy_762_lr_akmsu",
+	"wpn_fps_ass_heffy_762_lr_m92"
+}
+local akmlower = {
+	"wpn_fps_ass_heffy_762_lr_akm",
+	"wpn_fps_ass_heffy_762_lr_rpk",
+	"wpn_fps_ass_heffy_762_lr_vepr"
+}
+local akmsulower = {
+	"wpn_fps_ass_heffy_762_lr_ak103",
+	"wpn_fps_ass_heffy_762_lr_akmsu",
+	"wpn_fps_ass_heffy_762_lr_m92"
+}
+
 --- Stocks ---
 local all_ak47stock = {
 	"wpn_fps_ass_heffy_762_st_ak47",
@@ -242,7 +263,6 @@ local akmstock = {
 	"wpn_fps_ass_heffy_762_st_akms",
 	"wpn_fps_ass_heffy_762_st_rpk",
 	"wpn_fps_ass_heffy_762_st_ak103",
-	"wpn_fps_ass_heffy_762_st_vepr",
 	"wpn_fps_ass_heffy_762_st_bl_t56",
 	"wpn_fps_ass_heffy_762_st_br_t56",
 	"wpn_fps_ass_heffy_762_st_mpi",
@@ -303,7 +323,6 @@ local all_ak47upperforegrip = {
 	"wpn_fps_ass_heffy_762_ufg_m92",
 	"wpn_fps_ass_heffy_762_ufg_none"
 }
-
 --- Barrel ---
 -- Default length --
 local ak47barrel = {
@@ -364,9 +383,61 @@ local all_ak47ext = {
 }
 
 --- Gadgets (Flashlights/Lasers) ---
+local all_ak47fl = {
+	"wpn_fps_upg_fl_ass_smg_sho_peqbox",
+	"wpn_fps_upg_fl_ass_smg_sho_surefire",
+	"wpn_fps_upg_fl_ass_peq15",
+	"wpn_fps_upg_fl_ass_laser",
+	"wpn_fps_upg_fl_ass_utg",
+	"wpn_fps_addon_ris"
+}
+
 --- Sights ---
+local all_ak47sight = {
+	"wpn_fps_upg_o_specter",
+	"wpn_fps_upg_o_aimpoint",
+	"wpn_fps_upg_o_aimpoint_2",
+	"wpn_fps_upg_o_docter",
+	"wpn_fps_upg_o_eotech",
+	"wpn_fps_upg_o_t1micro",
+	"wpn_fps_upg_o_cmore",
+	"wpn_fps_upg_o_acog",
+	"wpn_fps_upg_o_cs",
+	"wpn_fps_upg_o_eotech_xps",
+	"wpn_fps_upg_o_reflex",
+	"wpn_fps_upg_o_rx01",
+	"wpn_fps_upg_o_rx30",
+	"wpn_fps_upg_o_spot"
+}
+local nonacog_aksight = {
+	"wpn_fps_upg_o_specter",
+	"wpn_fps_upg_o_aimpoint",
+	"wpn_fps_upg_o_aimpoint_2",
+	"wpn_fps_upg_o_docter",
+	"wpn_fps_upg_o_eotech",
+	"wpn_fps_upg_o_t1micro",
+	"wpn_fps_upg_o_cmore",
+	"wpn_fps_upg_o_cs",
+	"wpn_fps_upg_o_eotech_xps",
+	"wpn_fps_upg_o_reflex",
+	"wpn_fps_upg_o_rx01",
+	"wpn_fps_upg_o_rx30",
+	"wpn_fps_upg_o_spot"
+}
 
 --- Grips ---
+local all_ak47grips = {
+	"wpn_fps_ass_heffy_762_pg_ak47",
+	"wpn_fps_ass_heffy_762_pg_akm",
+	"wpn_fps_ass_heffy_762_pg_ak103",
+	"wpn_fps_ass_heffy_762_pg_bl_t56",
+	"wpn_fps_ass_heffy_762_pg_br_t56",
+	"wpn_fps_ass_heffy_762_pg_mpi",
+	"wpn_fps_ass_heffy_762_pg_amd63",
+	"wpn_fps_ass_heffy_762_pg_amd65",
+	"wpn_fps_ass_heffy_762_pg_m92",
+	"wpn_fps_ass_heffy_762_pg_rk62"
+}
 local akmgrips = {
 	"wpn_fps_ass_heffy_762_pg_akm",
 	"wpn_fps_ass_heffy_762_pg_ak103",
@@ -410,6 +481,11 @@ local combined_stockpad = {
 --------------------------------------------------------------
 
 --- Gun ---
+--- Barrel ---
+for i, ro_id in ipairs(all_akex_ro) do 
+	self.parts.wpn_fps_ass_heffy_762_ba_ak109.override[ro_id] = {a_obj = "a_ro_ak109"}
+end
+
 --- LFG ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_lfg_warrior" )
 for i, ba_id in ipairs(all_ak47barrel) do 
@@ -470,11 +546,12 @@ for i, ext_id in ipairs(all_ak47ext) do
 	end
 end
 -- Warrior Overrides --
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufg_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufgc_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lfgc_ak47 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_rsb_ak47 = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ro_akm = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufg_ak47 	= {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ufgc_ak47 	= {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lfgc_ak47 	= {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_rsb_ak47 	= {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ro_akm  	= {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak47_scopemount 	= {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -494,11 +571,15 @@ for i, st_id in ipairs(all_akex_stock) do
 end
 --Stockpad--
 for i, st_id in ipairs(akmstock) do
-	for i, sp_id in ipairs(all_akex_stockpad) do
-		self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
-		self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
-		self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
-		self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
+	if self.parts[st_id] then -- fuck this game
+		for i, sp_id in ipairs(all_akex_stockpad) do
+			if self.parts[sp_id] then
+				self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
+				self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+				self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
+				self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
+			end
+		end
 	end
 end
 
@@ -520,7 +601,7 @@ for i, ufg_id in ipairs(all_ak47upperforegrip) do
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akmsu", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_m92", "wpn_fps_ass_heffy_all_lfg_warrior" )
-
+self:akpack_setup_forbid( "wpn_fps_upg_o_ak47_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 --- Stockpad ---
 for i, st_id in ipairs(non_grp_stock) do
 	for sp_id in ipairs(combined_stockpad) do

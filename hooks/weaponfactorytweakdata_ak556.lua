@@ -337,6 +337,10 @@ local non_grp_stock = {
 --------------------------------------------------------------
 
 --- Gun ---
+--- Barrel ---
+for i, ro_id in ipairs(all_akex_ro) do 
+	self.parts.wpn_fps_ass_heffy_556_ba_ak108.override[ro_id] = {a_obj = "a_ro_ak108"}
+end
 --- LFG ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_lfg_warrior" )
 for i, ba_id in ipairs(all_ak101barrel) do 
@@ -374,6 +378,10 @@ end
 -- Warrior Overrides --
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_556_ufg_ak101 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_556_ro_ak101  = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_556_rsb_ak101 = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_556_ufgc_ak101 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_556_lfgc_ak101 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak101_scopemount = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -398,6 +406,7 @@ for i, ufg_id in ipairs(all_ak101upperforegrip) do
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ufg_id] = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 	end
 end
+self:akpack_setup_forbid( "wpn_fps_upg_o_ak101_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 --- Stockpad ---
 for i, st_id in ipairs(non_grp_stock) do
 	for sp_id in ipairs(all_akex_stockpad) do

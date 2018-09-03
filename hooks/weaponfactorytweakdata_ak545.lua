@@ -365,6 +365,10 @@ local non_grp_stock = {
 --------------------------------------------------------------
 
 --- Gun ---
+--- Barrel ---
+for i, ro_id in ipairs(all_akex_ro) do 
+	self.parts.wpn_fps_ass_heffy_545_ba_ak107.override[ro_id] = {a_obj = "a_ro_ak107"}
+end
 --- LFG ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_lfg_warrior" )
 for i, ba_id in ipairs(all_ak74barrel) do 
@@ -405,8 +409,12 @@ for i, ext_id in ipairs(all_ak74ext) do
 	end
 end
 -- Warrior Overrides --
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ufg_ak74 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ro_ak74  = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ufg_ak74  = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ro_ak74   = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_rsb_ak74  = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ufgc_ak74 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_lfgc_ak74 = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak74_scopemount = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -437,6 +445,7 @@ for i, ufg_id in ipairs(all_ak74upperforegrip) do
 	end
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_lr_aks74u", "wpn_fps_ass_heffy_all_lfg_warrior" )
+self:akpack_setup_forbid( "wpn_fps_upg_o_ak74_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 --please send help
 --- Stockpad ---
 for i, st_id in ipairs(non_grp_stock) do
