@@ -450,7 +450,6 @@ local akmgrips = {
 	"wpn_fps_ass_heffy_762_pg_rk62"
 }
 
-
 -----------------------------
 ------ Combined Arrays ------
 local non_grp_stock = {
@@ -476,6 +475,48 @@ local combined_stockpad = {
 --for i, st_id in ipairs(all_akex_stock) do 
 --	table.insert(akmstock, st_id)
 --end
+
+--- Compatibility Insertion ---
+
+--[[if self.wpn_fps_ass_heffy_545 then
+
+	local ak74stocks = {
+		"wpn_fps_ass_heffy_all_st_ak74",
+		"wpn_fps_ass_heffy_545_st_rpk74",
+		"wpn_fps_ass_heffy_545_st_mpi",
+	}
+	
+	for i, part_id in ipairs(ak74stocks) do
+		table.insert(all_ak47stock, part_id)
+		table.insert(akmstock, part_id)
+		table.insert(non_grp_stock, part_id)
+	end
+	
+	local ak74stockparts = {
+		"wpn_fps_ass_heffy_545_stp_ak74",
+		"wpn_fps_ass_heffy_545_stp_ak74_2",
+		"wpn_fps_ass_heffy_545_stp_rpk74",
+		"wpn_fps_ass_heffy_545_str_rpk74",
+		"wpn_fps_ass_heffy_545_stp_mpi",
+	}
+	
+	for i, part_id in ipairs(ak74stockparts) do
+		table.insert(akmstockpad, part_id)
+		table.insert(combined_stockpad, part_id)
+	end
+	
+	local ak74grips = {
+		"wpn_fps_ass_heffy_all_pg_ak74",
+		"wpn_fps_ass_heffy_545_pg_mpi",
+	}
+	
+	for i, part_id in ipairs(ak74grips) do
+		table.insert(all_ak47grips, part_id)
+		table.insert(akmgrips, part_id)
+	end
+
+end]]--
+
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
