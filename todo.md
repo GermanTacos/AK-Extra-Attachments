@@ -3,9 +3,11 @@
 - [x] Add wftd for Warrior FG (Barrel position, forbids)
 - [x] Move GP25 here
 - [x] Update missing faces on the inside of the toprail of the Warrior FG
-- [ ] Add more forbids for Warrior FG
-- [ ] Add sight position on Warrior FG
-- [ ] Updated GP25 sight as single model and add its textures
+- [x] Add more forbids for Warrior FG
+- [x] Add sight position on Warrior FG
+- [x] Updated GP25 sight as single model and add its textures
+- [ ] Give the GP25 sight a dummy unit that gets an override from the GP25 with the real unit
+- [ ] Add forbid for extra long mags on the GP25
 - [ ] List of sounds to add:
 	 - [ ] CSGO sounds (the good ones not the new ones)
 	 - [ ] CSS sounds
