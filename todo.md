@@ -8,7 +8,7 @@
 - [x] Updated GP25 sight as single model and add its textures
 - [ ] Give the GP25 sight a dummy unit that gets an override from the GP25 with the real unit
 - [ ] Add forbid for extra long mags on the GP25
-- [ ] Fix wrong suppression values
+- [x] Fix wrong suppression values
 - [ ] List of sounds to add:
 	 - [ ] CSGO sounds (the good ones not the new ones)
 	 - [ ] CSS sounds
