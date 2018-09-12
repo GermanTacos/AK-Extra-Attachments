@@ -450,6 +450,11 @@ local akmgrips = {
 	"wpn_fps_ass_heffy_762_pg_rk62"
 }
 
+local all_ak47bipod = {
+	"wpn_fps_ass_heffy_762_bp_rpk",
+	"wpn_fps_ass_heffy_762_bp_rpk_folded"
+}
+
 -----------------------------
 ------ Combined Arrays ------
 local non_grp_stock = {
@@ -582,7 +587,10 @@ for i, st_id in ipairs(akmstock) do
 		end
 	end
 end
-
+--- Bipods ---
+for i, bp_id in ipairs(all_ak47bipod) do
+	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[bp_id] = {a_obj = "a_bp_war"}
+end
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
 ----------------------------------------------------------

@@ -355,11 +355,17 @@ local ak74grips = {
 	"wpn_fps_ass_heffy_545_pg_mpi"
 }
 
+local all_ak74bipod = {
+	"wpn_fps_ass_heffy_545_bp_rpk74",
+	"wpn_fps_ass_heffy_545_bp_rpk74_folded"
+}
+
 local non_grp_stock = { 
 	"wpn_fps_ass_heffy_545_st_aks74",
 	"wpn_fps_ass_heffy_all_st_moe",
 	"wpn_fps_ass_heffy_all_st_sho"
 }
+
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
@@ -428,6 +434,10 @@ for i, st_id in ipairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = {a_obj = "a_s_aks74u"}
 end
 
+--- Bipods ---
+for i, bp_id in ipairs(all_ak74bipod) do
+	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[bp_id] = {a_obj = "a_bp_war"}
+end
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
 ----------------------------------------------------------

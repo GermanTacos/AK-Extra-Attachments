@@ -181,6 +181,13 @@ if ( self.heffy_545 ) then
         position = Vector3( 0, 10.5, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
+--- Bipods ---
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_bp_war", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, 10.5, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
 --- Barrel extensions ---
 -- Default positions --
 	self:SetupAttachmentPoint("heffy_545", {
