@@ -240,6 +240,13 @@ end
 for i, ro_id in ipairs(all_akex_ro) do
 	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
 end
+
+--- Underbarrel ---
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_helical_64", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_90", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_100", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_180", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_260", "wpn_fps_ass_heffy_all_gl_gp25" )
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------

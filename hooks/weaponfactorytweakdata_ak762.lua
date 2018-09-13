@@ -619,6 +619,27 @@ end
 for i, sp_id in ipairs(all_akex_stockpad) do
 	self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_st_ak47", sp_id )
 end
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk_folded", "wpn_fps_ass_heffy_all_gl_gp25" )
+
+--- FGs ---
+for i, lr_id in ipairs(akmsulower) do
+	if lr_id ~= "wpn_fps_ass_heffy_762_lr_ak103" then
+		for i, lfg_id in ipairs(all_akex_lowerforegrip) do
+			self:akpack_setup_forbid( lr_id, lfg_id )
+		end
+		for i, ufg_id in ipairs(all_akex_upperforegrip) do
+			self:akpack_setup_forbid( lr_id, ufg_id )
+		end
+	end
+end
+-- UFGs --
+for i, ufg_id in ipairs(all_akex_upperforegrip) do
+	if ufg_id ~= "wpn_fps_ass_heffy_762_ufg_ak47" then
+		self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lfg_m70", ufg_id )
+	end
+end
+
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------

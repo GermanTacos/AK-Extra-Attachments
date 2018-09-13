@@ -435,7 +435,9 @@
 		<bullet_objects amount="1" prefix="g_grenade_"/>
 		<animations bipod_reload="reload_ul" />
 		<custom_stats ammo_pickup_max_mul="0.7" ammo_pickup_min_mul="0.8"/>
-		<override/>
+		<override>
+			<wpn_fps_ass_heffy_all_ex_gp25sight unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ex_gp25sight"/>
+		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -463,7 +465,7 @@
 		<pcs/>
     </WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_ex_gp25sight" based_on="wpn_fps_ass_flint_body_upperreceiver" a_obj="a_glo" type="extra" unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ex_gp25sight" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_ass_heffy_all_ex_gp25sight" based_on="wpn_fps_ass_flint_body_upperreceiver" a_obj="a_glo" type="extra" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	
 	<AddFiles directory="assets">
@@ -940,7 +942,7 @@
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_sm_cover"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_stpa_gl"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_gl_gp25"/>
-		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_gl_gp25_sight"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_gl_gp25_sight_up"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_ufg_heat"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_pg_rub"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_all_lfg_honor"/>

@@ -475,6 +475,8 @@ for i, st_id in ipairs(all_ak74stock) do
 		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id].override[sp_id] = {a_obj = "a_s_aks74u"}
 	end
 end
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74_folded", "wpn_fps_ass_heffy_all_gl_gp25" )
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
