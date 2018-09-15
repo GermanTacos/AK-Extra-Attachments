@@ -389,6 +389,15 @@
 	   <pcs/>
     </WeaponMod>
 	
+	<WeaponMod id="wpn_fps_ass_heffy_762_so_pr" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+	<sound_switch suppressed="regular_b"/>
+	   <stats damage="0"/>
+	   <weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+	   <pcs/>
+    </WeaponMod>
+	
 	<!-- AK 117 -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_ch_ak117" based_on="wpn_fps_ass_flint_dh_standard" type="drag_handle" unit="units/mods/weapons/wpn_fps_ass_heffy_all_ak117_pts/wpn_fps_ass_heffy_762_ch_ak117" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -467,6 +476,10 @@
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_ex_gp25sight" based_on="wpn_fps_ass_flint_body_upperreceiver" a_obj="a_glo" type="extra" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
+	<Sounds directory="assets">
+		<sound id="ak47_fire_single" path="sounds/ak47_blops_fire.ogg" prefix="regular_a"/>
+		<sound id="ak47_fire_single" path="sounds/ak47_pr_fire.ogg"    prefix="regular_b"/>
+	</Sounds>
 	
 	<AddFiles directory="assets">
 	
