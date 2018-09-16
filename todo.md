@@ -10,22 +10,23 @@
 - [x] Add forbid for extra long mags on the GP25
 - [x] Fix wrong suppression values
 - [ ] List of sounds to add:
-	 - [ ] CSGO sounds (the good ones not the new ones)
-	 - [ ] CSS sounds
-	 - [ ] L4d2 sounds
+	 - [x] CSGO sounds (the good ones not the new ones)
+	 - [x] CSS sounds
+	 - [x] L4d2 sounds
 	 - [ ] CoD MW1 sounds
-	 - [ ] CoD MW2 sounds
-	 - [ ] CoD MW3 sounds
+	 - [x] CoD MW2 sounds
+	 - [x] CoD MW3 sounds
 	 - [ ] Far Cry 2 sounds
 	 - [ ] Far Cry 3 sounds
-	 - [ ] Killing Floor 1 sounds
+	 - [x] Killing Floor 1 sounds
 	 - [ ] Battlefield 2 sounds
 	 - [ ] Rising Storm 2: Vietnam sounds
-	 - [ ] Battlefield: Bad Company 2: Vietnam sounds
+	 - [x] Battlefield: Bad Company 2
 	 - [ ] Medal of Honor (2010) sounds
+	 - [x] Medal of Honor Warfighter sounds
 	 - [ ] Squad sounds
 	 - [ ] Survarium sounds
 	 - [ ] Escape from Tarkov sounds
-	 - [ ] Metro 2033 sounds
+	 - [x] Metro 2033 sounds
 	 - [ ] Metro Last Light sounds
 	 - [ ] Rainbow Six: Siege sounds (Beryl M762)
