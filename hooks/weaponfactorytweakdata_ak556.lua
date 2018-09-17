@@ -387,8 +387,11 @@ self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak101_scopem
 -- Other length barrel Front Sight overrides --
 
 --- Receiver aka Lower ---
+self:akpack_check_override( "part", "wpn_fps_ass_heffy_556_lr_ak101" )
 --Stock overrides--
-
+for i, st_id in ipairs(all_akex_stock) do
+	self.parts.wpn_fps_ass_heffy_556_lr_ak101.override[st_id] = {a_obj = "a_s_akmsu"}
+end
 
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
