@@ -407,6 +407,7 @@ for i, ufg_id in ipairs(all_ak101upperforegrip) do
 	end
 end
 self:akpack_setup_forbid( "wpn_fps_upg_o_ak101_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
+
 --- Stockpad ---
 for i, st_id in ipairs(non_grp_stock) do
 	for sp_id in ipairs(all_akex_stockpad) do
