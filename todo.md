@@ -14,7 +14,7 @@
 	 - [x] CSS sounds
 	 - [x] L4d2 sounds
 	 - [ ] CoD MW1 sounds
-	 - [x] CoD MW2 sounds
+	 - [ ] CoD MW2 sounds
 	 - [x] CoD MW3 sounds
 	 - [ ] Far Cry 2 sounds
 	 - [ ] Far Cry 3 sounds

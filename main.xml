@@ -446,9 +446,6 @@
 	<WeaponMod id="wpn_fps_ass_heffy_762_so_mw2" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 	<sound_switch suppressed="regular_i"/>
 	   <stats damage="0"/>
-		<weapons>
-			<value_node value="wpn_fps_ass_heffy_762"/>
-		</weapons>
 	   <pcs/>
     </WeaponMod>
 	
