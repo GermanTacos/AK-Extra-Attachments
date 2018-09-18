@@ -252,9 +252,11 @@ local all_ak74lowerforegrip = {
 	"wpn_fps_ass_heffy_545_lfg_ak74",
 	"wpn_fps_ass_heffy_545_lfg_rpk74",
 	"wpn_fps_ass_heffy_545_lfg_ak74m",
-	"wpn_fps_ass_heffy_545_lfg_mpi"
+	"wpn_fps_ass_heffy_545_lfg_mpi",
+	"wpn_fps_ass_heffy_all_lfg_ak74"
 }
 local all_ak74upperforegrip = {
+	"wpn_fps_ass_heffy_all_ufg_ak74",
 	"wpn_fps_ass_heffy_545_ufg_ak74",
 	"wpn_fps_ass_heffy_545_ufg_ak74m",
 	"wpn_fps_ass_heffy_545_ufg_mpi",

@@ -9,6 +9,7 @@
 - [x] Give the GP25 sight a dummy unit that gets an override from the GP25 with the real unit
 - [x] Add forbid for extra long mags on the GP25
 - [x] Fix wrong suppression values
+- [x] Fix problems with AK101 (Warrior FG (god i hate that thing), stock pad position )
 - [ ] List of sounds to add:
 	 - [x] CSGO sounds (the good ones not the new ones)
 	 - [x] CSS sounds

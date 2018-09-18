@@ -286,6 +286,7 @@ local akmstockpad = {
 -- Default length --
 local all_ak47lowerforegrip = {
 	"wpn_fps_ass_heffy_762_lfg_ak47",
+	"wpn_fps_ass_heffy_all_lfg_ak47",
 	"wpn_fps_ass_heffy_762_lfg_akm",
 	"wpn_fps_ass_heffy_762_lfg_akmsu",
 	"wpn_fps_ass_heffy_762_lfg_rpk",
@@ -300,6 +301,7 @@ local all_ak47lowerforegrip = {
 	"wpn_fps_ass_heffy_762_lfg_none"
 }
 local ak47foregrip = {
+	"wpn_fps_ass_heffy_all_lfg_ak47",
 	"wpn_fps_ass_heffy_762_lfg_ak47",
 	"wpn_fps_ass_heffy_762_lfg_akm",
 	"wpn_fps_ass_heffy_762_lfg_rpk",
@@ -311,6 +313,7 @@ local ak47foregrip = {
 	"wpn_fps_ass_heffy_762_lfg_amd63"
 }
 local all_ak47upperforegrip = {
+	"wpn_fps_ass_heffy_all_ufg_ak47",
 	"wpn_fps_ass_heffy_762_ufg_ak47",
 	"wpn_fps_ass_heffy_762_ufg_akm",
 	"wpn_fps_ass_heffy_762_ufg_akmsu",

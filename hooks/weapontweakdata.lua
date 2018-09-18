@@ -127,6 +127,14 @@ if ( self.heffy_762 ) then
         position = Vector3( 0, 11.4, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
+--- Fore grips ---
+--Warrior--
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.6, 0, -2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
 --- Scope Mount ---
 -- cover rail --
 	self:SetupAttachmentPoint("heffy_762", {
@@ -214,6 +222,14 @@ if ( self.heffy_545 ) then
         position = Vector3( 0, 5.2, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
+--- Fore grips ---
+--Warrior--
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.6, 0, -2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
 --- Scope Mount ---
 -- cover rail --
 	self:SetupAttachmentPoint("heffy_545", {
@@ -268,6 +284,14 @@ if ( self.heffy_556 ) then
 		name = "a_ns_war_ak102", 
         base_a_obj = "a_ns", 
         position = Vector3( 0, 5.2, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+--- Fore grips ---
+--Warrior--
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.6, 0, -2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
