@@ -31,7 +31,7 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_762_fm_blops" : "Cold War Firing Mechanism",
 	
-	"bm_wp_wpn_fps_ass_heffy_762_ro_blops" : "Cold War Sights",
+	"bm_wp_wpn_fps_ass_heffy_all_ro_blops" 	  : "Cold War Sights",
 	"bm_wp_wpn_fps_ass_heffy_all_ro_ins"      : "Middle East Sights",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_stpa_gl"     : "Grenade Launcher Recoil Pad",
