@@ -132,7 +132,7 @@ if ( self.heffy_762 ) then
 	self:SetupAttachmentPoint("heffy_762", {
 		name = "a_fl_war", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.6, 0, -2 ), 
+        position = Vector3( -0.4, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
@@ -227,7 +227,7 @@ if ( self.heffy_545 ) then
 	self:SetupAttachmentPoint("heffy_545", {
 		name = "a_fl_war", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.6, 0, -2 ), 
+        position = Vector3( -0.4, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
@@ -291,7 +291,7 @@ if ( self.heffy_556 ) then
 	self:SetupAttachmentPoint("heffy_556", {
 		name = "a_fl_war", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.6, 0, -2 ), 
+        position = Vector3( -0.4, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
