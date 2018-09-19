@@ -634,6 +634,7 @@ for i, lr_id in ipairs(akmsulower) do
 		for i, ufg_id in ipairs(all_akex_upperforegrip) do
 			self:akpack_setup_forbid( lr_id, ufg_id )
 		end
+		self:akpack_setup_forbid( lr_id, "wpn_fps_ass_heffy_all_sm_cover" )
 	end
 end
 -- UFGs --

@@ -238,6 +238,14 @@ if ( self.heffy_545 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+	
+--- Magazines ---
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_m_ak74_nk64", 
+        base_a_obj = "a_m",
+        position = Vector3( 0.1, 12, 1.3 ), 
+        rotation = Rotation( 0, 2, 0 )
+	})
 end
 
 ---- AK 556 ----

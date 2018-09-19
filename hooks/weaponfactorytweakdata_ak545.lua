@@ -482,7 +482,13 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74_folded", "wpn_fps_ass_
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
-
+--- Magazine ---
+self.parts.wpn_fps_ass_heffy_762_m_helical_64.weapon_hold_override = {
+			bm_w_heffy_545 = "contraband"
+		}
+self.parts.wpn_fps_ass_heffy_762_m_helical_64.weapon_stance_override = {
+			bm_w_heffy_545 = "gl25_gl"
+		}
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -----------------------------------------------------------------

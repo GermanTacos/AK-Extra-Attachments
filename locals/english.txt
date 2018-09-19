@@ -3,8 +3,14 @@
 	"bm_menu_rear_sight"        : "Iron Sight",
 	"bm_menu_rear_sight_plural" : "Iron Sights",
 	
+	"bm_menu_drag_handle"        		: "Bolt",
+	"bm_menu_drag_handle_plural" 		: "Bolts",
+	
 	"bm_menu_front_sight"        : "Front Sight",
 	"bm_menu_front_sight_plural" : "Front Sights",
+	
+	"bm_menu_underbarrel" : "Underbarrel",
+	"bm_menu_underbarrel_plural" : "Underbarrels"
 	
 	"bm_wp_wpn_fps_ass_heffy_all_lfg_moe"     : "Magpul MOE Lower Foregrip",
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_moe"     : "Magpul MOE Upper Foregrip",
@@ -49,6 +55,7 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_60"   : "60 Round Steel Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_helical_64" : "64 Round Helical Magazine",
+	"bm_wp_wpn_fps_ass_heffy_762_m_helical_64_desc" : "Rare Helical Magazine from North Korea.",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_70"   : "70 Round Steel Magazine",
 	
