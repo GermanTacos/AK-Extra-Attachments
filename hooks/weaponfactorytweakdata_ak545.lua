@@ -471,6 +471,9 @@ for i, st_id in ipairs(all_ak74stock) do
 		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
 		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
 end
+for i, ro_id in ipairs(all_akex_ro) do
+	self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_lr_aks74u", ro_id )
+end
 for i, st_id in ipairs(all_ak74stock) do
 	for i, sp_id in ipairs(all_akex_stockpad) do
 		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override[sp_id]  = {a_obj = "a_s_ak74m"}
