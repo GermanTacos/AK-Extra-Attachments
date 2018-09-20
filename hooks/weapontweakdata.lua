@@ -130,9 +130,21 @@ if ( self.heffy_762 ) then
 --- Fore grips ---
 --Warrior--
 	self:SetupAttachmentPoint("heffy_762", {
-		name = "a_fl_war", 
+		name = "a_fl_honor", 
         base_a_obj = "a_fl", 
         position = Vector3( -0.4, 0, -2.2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_fl_zenit", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.55, 0, -2.3 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.3, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
@@ -225,9 +237,21 @@ if ( self.heffy_545 ) then
 --- Fore grips ---
 --Warrior--
 	self:SetupAttachmentPoint("heffy_545", {
-		name = "a_fl_war", 
+		name = "a_fl_honor", 
         base_a_obj = "a_fl", 
         position = Vector3( -0.4, 0, -2.2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_fl_zenit", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.55, 0, -2.3 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.3, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---
@@ -297,9 +321,21 @@ if ( self.heffy_556 ) then
 --- Fore grips ---
 --Warrior--
 	self:SetupAttachmentPoint("heffy_556", {
-		name = "a_fl_war", 
+		name = "a_fl_honor", 
         base_a_obj = "a_fl", 
         position = Vector3( -0.4, 0, -2.2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_fl_zenit", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.55, 0, -2.3 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.3, 0, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 --- Scope Mount ---

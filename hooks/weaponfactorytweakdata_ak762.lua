@@ -643,7 +643,10 @@ for i, ufg_id in ipairs(all_akex_upperforegrip) do
 		self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lfg_m70", ufg_id )
 	end
 end
-
+-- Grips --
+for i, g_id in ipairs(all_akex_grips) do
+	self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_st_vepr", g_id )
+end
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
