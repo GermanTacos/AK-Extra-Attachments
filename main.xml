@@ -29,6 +29,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -49,6 +50,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -59,6 +61,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -86,6 +89,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -114,6 +118,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -139,6 +144,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -151,6 +157,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -163,6 +170,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -186,6 +194,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -203,6 +212,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -231,6 +241,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -243,6 +254,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -260,6 +272,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -494,6 +507,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -543,6 +557,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 	    <pcs/>
 	</WeaponMod>
@@ -553,6 +568,7 @@
 			<wpn_fps_ass_heffy_762 translation="5.3 -2 4.9" rotation="0 -5 0"/>
 			<wpn_fps_ass_heffy_545 translation="5.3 -2 4.9" rotation="0 -5 0"/>
 			<wpn_fps_ass_heffy_556 translation="5.3 -2 4.9" rotation="0 -5 0"/>
+			<wpn_fps_ass_heffy_939 translation="5.3 -2 4.9" rotation="0 -5 0"/>
 		</stance_mod>
 		<override/>
 		<adds>
@@ -562,6 +578,7 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
     </WeaponMod>
@@ -1112,6 +1129,7 @@
 		<hook file="weaponfactorytweakdata_ak762.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 		<hook file="weaponfactorytweakdata_ak545.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 		<hook file="weaponfactorytweakdata_ak556.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weaponfactorytweakdata_ak939.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
 	</Hooks>
 </table>
