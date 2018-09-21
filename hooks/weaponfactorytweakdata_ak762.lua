@@ -578,7 +578,7 @@ for i, st_id in ipairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] = {a_obj = "a_s_akmsu"}
 end
 --Stockpad--
-for i, st_id in ipairs(akmstock) do
+--[[for i, st_id in ipairs(akmstock) do
 	if self.parts[st_id] then -- fuck this game
 		for i, sp_id in ipairs(all_akex_stockpad) do
 			if self.parts[sp_id] then
@@ -589,7 +589,7 @@ for i, st_id in ipairs(akmstock) do
 			end
 		end
 	end
-end
+end]]--
 --- Bipods ---
 for i, bp_id in ipairs(all_ak47bipod) do
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[bp_id] = {a_obj = "a_bp_war"}
