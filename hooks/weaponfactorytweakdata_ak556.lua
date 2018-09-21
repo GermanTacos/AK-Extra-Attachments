@@ -113,7 +113,7 @@ local all_akex_stock = {
 	"wpn_fps_ass_heffy_all_st_sho"
 }
 --- Stock Pads ---
-local all_akex_stockpad = {
+local all_akex3_stockpad = {
 	"wpn_fps_ass_heffy_all_stpa_gl"
 }
 --- Fore Grip ---
@@ -397,7 +397,7 @@ for i, st_id in ipairs(all_ak101stock) do
 	self.parts.wpn_fps_ass_heffy_556_lr_ak101.override[st_id].override = self.parts.wpn_fps_ass_heffy_556_lr_ak101.override[st_id].override or {}
 end
 for i, st_id in ipairs(all_ak101stock) do
-	for i, sp_id in ipairs(all_akex_stockpad) do
+	for i, sp_id in ipairs(all_akex3_stockpad) do
 		self.parts.wpn_fps_ass_heffy_556_lr_ak101.override[st_id].override[sp_id]  = {a_obj = "a_s_akmsu"}
 	end
 end
@@ -421,7 +421,7 @@ self:akpack_setup_forbid( "wpn_fps_upg_o_ak101_l_scopemount", "wpn_fps_ass_heffy
 
 --- Stockpad ---
 for i, st_id in ipairs(non_grp_stock) do
-	for sp_id in ipairs(all_akex_stockpad) do
+	for sp_id in ipairs(all_akex3_stockpad) do
 		self:akpack_setup_forbid ( st_id, sp_id )
 	end
 end
