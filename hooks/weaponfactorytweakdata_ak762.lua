@@ -243,6 +243,7 @@ local akmsulower = {
 local all_ak47stock = {
 	"wpn_fps_ass_heffy_762_st_ak47",
 	"wpn_fps_ass_heffy_762_st_akm",
+	"wpn_fps_ass_heffy_762_st_akm_worn",
 	"wpn_fps_ass_heffy_762_st_akms",
 	"wpn_fps_ass_heffy_762_st_akmsu",
 	"wpn_fps_ass_heffy_762_st_rpk",
@@ -304,24 +305,28 @@ local ak47foregrip = {
 	"wpn_fps_ass_heffy_all_lfg_ak47",
 	"wpn_fps_ass_heffy_762_lfg_ak47",
 	"wpn_fps_ass_heffy_762_lfg_akm",
+	"wpn_fps_ass_heffy_762_lfg_akm_worn",
 	"wpn_fps_ass_heffy_762_lfg_rpk",
 	"wpn_fps_ass_heffy_762_lfg_ak103",
 	"wpn_fps_ass_heffy_762_lfg_vepr",
 	"wpn_fps_ass_heffy_762_lfg_bl_t56",
 	"wpn_fps_ass_heffy_762_lfg_br_t56",
 	"wpn_fps_ass_heffy_762_lfg_mpi",
+	"wpn_fps_ass_heffy_762_lfg_mpi_wood",
 	"wpn_fps_ass_heffy_762_lfg_amd63"
 }
 local all_ak47upperforegrip = {
 	"wpn_fps_ass_heffy_all_ufg_ak47",
 	"wpn_fps_ass_heffy_762_ufg_ak47",
 	"wpn_fps_ass_heffy_762_ufg_akm",
+	"wpn_fps_ass_heffy_762_ufg_akm_worn",
 	"wpn_fps_ass_heffy_762_ufg_akmsu",
 	"wpn_fps_ass_heffy_762_ufg_rpk",
 	"wpn_fps_ass_heffy_762_ufg_ak103",
 	"wpn_fps_ass_heffy_762_ufg_bl_t56",
 	"wpn_fps_ass_heffy_762_ufg_br_t56",
 	"wpn_fps_ass_heffy_762_ufg_mpi",
+	"wpn_fps_ass_heffy_762_ufg_mpi_wood",
 	"wpn_fps_ass_heffy_762_ufg_m70",
 	"wpn_fps_ass_heffy_762_ufg_m92",
 	"wpn_fps_ass_heffy_762_ufg_none"
