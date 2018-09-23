@@ -138,7 +138,7 @@ if ( self.heffy_762 ) then
 	self:SetupAttachmentPoint("heffy_762", {
 		name = "a_fl_zenit", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.55, 0, -2.3 ), 
+        position = Vector3( -0.55, 2, -2.3 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("heffy_762", {
@@ -245,7 +245,7 @@ if ( self.heffy_545 ) then
 	self:SetupAttachmentPoint("heffy_545", {
 		name = "a_fl_zenit", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.55, 0, -2.3 ), 
+        position = Vector3( -0.55, 2, -2.3 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("heffy_545", {
@@ -323,7 +323,7 @@ if ( self.heffy_556 ) then
 	self:SetupAttachmentPoint("heffy_556", {
 		name = "a_fl_honor", 
         base_a_obj = "a_fl", 
-        position = Vector3( -0.4, 0, -2.2 ), 
+        position = Vector3( -0.4, 2, -2.2 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("heffy_556", {
