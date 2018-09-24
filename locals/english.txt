@@ -66,8 +66,13 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_100"  : "100 Round Steel Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_180"  : "180 Round Steel Magazine",
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_180_desc"  : "Hard to load on the field...",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_260"  : "260 Round Steel Magazine",
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_260_desc"  : "Very hard to load on the field...",
+	
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_1160A"  : "1160 Round Steel Magazine",
+	"bm_wp_wpn_fps_ass_heffy_762_m_steel_1160A_desc"  : "Can't load those on the field...",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30"    : "30 Round Waffle Magazine",
 	

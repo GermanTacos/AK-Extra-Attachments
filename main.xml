@@ -362,7 +362,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_50" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_50" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="10" concealment="-4" reload="-1"/>
+		<stats extra_ammo="10" concealment="-5" spread="-1" reload="-1"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -370,7 +370,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_60" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_60" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="15" concealment="-4" reload="-2"/>
+		<stats extra_ammo="15" concealment="-6" spread="-2" reload="-2"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -378,7 +378,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_70" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_70" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="40" concealment="-5" reload="-3"/>
+		<stats extra_ammo_new="40" concealment="-7" spread="-5" reload="-3"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -386,7 +386,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_80" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_80" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="25" concealment="-6" reload="-3"/>
+		<stats extra_ammo="25" concealment="-8" spread="-6" reload="-3"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -394,7 +394,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_90" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_90" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="30" concealment="-7" reload="-4"/>
+		<stats extra_ammo="30" concealment="-9" spread="-7" reload="-4"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -402,25 +402,25 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_100" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_100" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="35" concealment="-8" reload="-4"/>
+		<stats extra_ammo="35" concealment="-10" spread="-8" reload="-4"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_180" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_180" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="75" total_ammo_mod="10" recoil="4" concealment="-25" reload="-10"/>
-		<custom_stats movement_speed="0.90"/>
+	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_180" based_on="wpn_fps_ass_flint_m_standard" type="magazine" has_description="true" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_180" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo="75" total_ammo_mod="10" spread="-15" recoil="4" concealment="-25" reload="-10"/>
+		<custom_stats movement_speed="0.80" ammo_pickup_min_mul="0.2" ammo_pickup_max_mul="0.2"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_260" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_260" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo="115" total_ammo_mod="24" recoil="5" concealment="-40" reload="-15"/>
-		<custom_stats movement_speed="0.80"/>
+	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_260" based_on="wpn_fps_ass_flint_m_standard" type="magazine" has_description="true" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_260" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo="115" total_ammo_mod="24" spread="-18" recoil="5" concealment="-40" reload="-15"/>
+		<custom_stats movement_speed="0.70" ammo_pickup_min_mul="0.1" ammo_pickup_max_mul="0.1"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 		</weapons>
@@ -428,9 +428,9 @@
 	</WeaponMod>
 	
 	<!-- P1000 -->
-	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_1160A" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_1160A" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="1130" total_ammo_mod="174" recoil="10" concealment="-160" reload="-10"/>
-		<custom_stats movement_speed="0.30"/>
+	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_1160A" based_on="wpn_fps_ass_flint_m_standard" type="magazine" has_description="true" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_1160A" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo_new="1130" total_ammo_mod="174" spread="-20" recoil="10" concealment="-160" reload="-10"/>
+		<custom_stats movement_speed="0.30" ammo_pickup_min_mul="0" ammo_pickup_max_mul="0"/>
 		<adds>
 			<value_node value="wpn_fps_ass_heffy_762_m_steel_1160B"/>
 		</adds>
