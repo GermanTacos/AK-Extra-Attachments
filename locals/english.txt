@@ -120,6 +120,6 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_all_lfg_warrior" : "Warrior Foregrip",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_st_sho"      : "Shovel Stock",
+	"bm_wp_wpn_fps_ass_heffy_all_st_sho"      : "Shovel Stock"
 	
 }
