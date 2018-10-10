@@ -486,6 +486,9 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74_folded", "wpn_fps_ass_
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
+--- Foregrips ---
+-- Warrior --
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.weapon_stance_override.bm_w_heffy_545 	= "warrior_ads"
 --- Magazine ---
 self.parts.wpn_fps_ass_heffy_762_m_helical_64.weapon_hold_override = {
 			bm_w_heffy_545 = "contraband"

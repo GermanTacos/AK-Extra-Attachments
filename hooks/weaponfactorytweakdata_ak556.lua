@@ -429,7 +429,9 @@ end
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
-
+--- Foregrips ---
+-- Warrior --
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.weapon_stance_override.bm_w_heffy_556 	= "warrior_ads"
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -----------------------------------------------------------------

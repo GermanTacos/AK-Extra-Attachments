@@ -263,6 +263,9 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_260", "wpn_fps_ass_heff
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 
+--- Foregrips ---
+-- Warrior --
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.weapon_stance_override = {}
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -- Underbarrel sight --
