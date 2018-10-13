@@ -243,6 +243,9 @@ end
 -------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Forbids- <A><K><E><X><T><R><A>----
 -------------------------------------------------------------
+--- Stocks ---
+--Magpul moe--
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_st_moe", "wpn_fps_ass_heffy_all_stpa_gl" )
 --- Foregrips ---
 --Warrior--
 for i, ro_id in ipairs(all_akex_ro) do

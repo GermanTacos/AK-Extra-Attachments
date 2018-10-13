@@ -101,7 +101,7 @@ function WeaponFactoryTweakData:akpack_write_error( func, cause, error_id, value
 	end
 end 
 
-Hooks:PostHook( WeaponFactoryTweakData, "init", "AK101EXTRAModInit", function(self)
+Hooks:PostHook( WeaponFactoryTweakData, "init", "AK9EXTRAModInit", function(self)
 
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Arrays- <A><K><E><X><T><R><A>----
@@ -394,7 +394,8 @@ for i, st_id in ipairs(all_ak9stock) do
 end
 for i, st_id in ipairs(all_ak9stock) do
 	for i, sp_id in ipairs(all_akex3_stockpad) do
-		self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id].override[sp_id]  = {a_obj = "a_s_akmsu"}
+		log("AK-9_test..... cunt")
+		self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id].override[sp_id]  = {a_obj = "a_s_ak101"}
 	end
 end
 ----------------------------------------------------------
