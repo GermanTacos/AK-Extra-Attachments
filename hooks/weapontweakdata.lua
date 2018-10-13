@@ -347,6 +347,28 @@ if ( self.heffy_556 ) then
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
 end
+---- AK 939 ----
+if ( self.heffy_939 ) then
+--- Scope Mount ---
+-- cover rail --
+	self:SetupAttachmentPoint("heffy_939", {
+		name = "a_o_cover", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+end
+---- Akimbo AK 939 ----
+if ( self.x_heffy_939 ) then
+--- Scope Mount ---
+-- cover rail --
+	self:SetupAttachmentPoint("x_heffy_939", {
+		name = "a_o_cover", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+end
 end)
 
 
