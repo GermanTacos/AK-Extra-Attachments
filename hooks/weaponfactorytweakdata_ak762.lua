@@ -648,9 +648,11 @@ for i, lr_id in ipairs(akmsulower) do
 	if lr_id ~= "wpn_fps_ass_heffy_762_lr_ak103" then
 		for i, lfg_id in ipairs(all_akex_lowerforegrip) do
 			self:akpack_setup_forbid( lr_id, lfg_id )
+			self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_ba_vepr", lfg_id )
 		end
 		for i, ufg_id in ipairs(all_akex_upperforegrip) do
 			self:akpack_setup_forbid( lr_id, ufg_id )
+			self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_ba_vepr", ufg_id )
 		end
 		self:akpack_setup_forbid( lr_id, "wpn_fps_ass_heffy_all_sm_cover" )
 	end
