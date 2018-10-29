@@ -616,7 +616,6 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
-			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 	    <pcs/>
 	</WeaponMod>
@@ -637,7 +636,6 @@
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_556"/>
-			<value_node value="wpn_fps_ass_heffy_939"/>
 		</weapons>
 		<pcs/>
     </WeaponMod>
