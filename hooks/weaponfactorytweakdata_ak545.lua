@@ -375,29 +375,29 @@ local non_grp_stock = {
 
 --- Gun ---
 --- Barrel ---
-for i, ro_id in ipairs(all_akex_ro) do 
+for id, ro_id in pairs(all_akex_ro) do 
 	self.parts.wpn_fps_ass_heffy_545_ba_ak107.override[ro_id] = {a_obj = "a_ro_ak107"}
 end
 --- LFG ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_lfg_warrior" )
-for i, ba_id in ipairs(all_ak74barrel) do 
+for id, ba_id in pairs(all_ak74barrel) do 
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id] = {a_obj = "a_b_war"}
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id].override   = self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id].override or {}
 end
 -- Front sight overrides by lfgs --
-for i, ba_id in ipairs(ak74barrel) do
-	for i, fo_id in ipairs(all_ak74fo) do
+for id, ba_id in pairs(ak74barrel) do
+	for id, fo_id in pairs(all_ak74fo) do
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id].override[fo_id] = {a_obj = "a_fo_war_std"}
 	end
 end
-for i, fo_id in ipairs(all_ak74fo) do
+for id, fo_id in pairs(all_ak74fo) do
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_rpk74.override[fo_id]  = {a_obj = "a_fo_war_rpk"}
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_aks74u.override[fo_id] = {a_obj = "a_fo_war_aks74u"}
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_ak105.override[fo_id]  = {a_obj = "a_fo_war_ak105"}
 end
 -- Barrel Extensions position override by lfgs --
-for i, ba_id in ipairs(ak74barrel) do
-	for i, ext_id in ipairs(all_ak74ext) do
+for id, ba_id in pairs(ak74barrel) do
+	for id, ext_id in pairs(all_ak74ext) do
 		if ext_id ~= "wpn_fps_ass_heffy_545_fh_dummy" then
 			self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[ba_id].override[ext_id] = {a_obj = "a_ns_war_std"}
 		end
@@ -406,7 +406,7 @@ end
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_ak107.override.wpn_fps_ass_heffy_545_fh_dummy = {a_obj = "a_ns_war_std", unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak107_pts/wpn_fps_ass_heffy_545_fh_ak107"}
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_ak74.override.wpn_fps_ass_heffy_545_fh_dummy  = {a_obj = "a_ns_war_std", unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_fh_ak74"}
 
-for i, ext_id in ipairs(all_ak74ext) do
+for id, ext_id in pairs(all_ak74ext) do
 	if ext_id == "wpn_fps_ass_heffy_545_fh_dummy" then
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_aks74u.override[ext_id]  = {a_obj = "a_ns_war_aks74u", unit="units/mods/weapons/wpn_fps_ass_heffy_545_aks74u_pts/wpn_fps_ass_heffy_545_fh_aks74u"}
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_545_ba_ak105.override[ext_id] 	= {a_obj = "a_ns_war_ak105", unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak105_pts/wpn_fps_ass_heffy_545_fh_ak105"}
@@ -432,13 +432,13 @@ self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak74_scopemo
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_545_lr_ak74m" )
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_545_lr_aks74u" )
 --Stock overrides--
-for i, st_id in ipairs(all_akex_stock) do
+for id, st_id in pairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id]  = {a_obj = "a_s_ak74m"}
 	self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = {a_obj = "a_s_aks74u"}
 end
 
 --- Bipods ---
-for i, bp_id in ipairs(all_ak74bipod) do
+for id, bp_id in pairs(all_ak74bipod) do
 	self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[bp_id] = {a_obj = "a_bp_war"}
 end
 ----------------------------------------------------------
@@ -450,7 +450,7 @@ end
 -------------------------------------------------------------
 --- LFG ---
 --Warrior forbids (Added Override)--
-for i, ufg_id in ipairs(all_ak74upperforegrip) do
+for id, ufg_id in pairs(all_ak74upperforegrip) do
 	if ufg_id ~= "wpn_fps_ass_heffy_545_ufg_ak74" then
 		self:akpack_setup_forbid( ufg_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
 	else
@@ -461,22 +461,22 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_lr_aks74u", "wpn_fps_ass_heffy_
 self:akpack_setup_forbid( "wpn_fps_upg_o_ak74_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 --please send help
 --- Stockpad ---
-for i, st_id in ipairs(non_grp_stock) do
-	for sp_id in ipairs(all_akex2_stockpad) do
+for id, st_id in pairs(non_grp_stock) do
+	for id, sp_id in pairs(all_akex2_stockpad) do
 		self:akpack_setup_forbid ( st_id, sp_id )
 	end
 end
-for i, st_id in ipairs(all_ak74stock) do
+for id, st_id in pairs(all_ak74stock) do
 		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] or {}
 		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] or {}
 		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
 		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id].override = self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override or {}
 end
-for i, ro_id in ipairs(all_akex_ro) do
+for id, ro_id in pairs(all_akex_ro) do
 	self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_lr_aks74u", ro_id )
 end
-for i, st_id in ipairs(all_ak74stock) do
-	for i, sp_id in ipairs(all_akex2_stockpad) do
+for id, st_id in pairs(all_ak74stock) do
+	for id, sp_id in pairs(all_akex2_stockpad) do
 		self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id].override[sp_id]  = {a_obj = "a_s_ak74m"}
 		self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id].override[sp_id] = {a_obj = "a_s_aks74u"}
 	end

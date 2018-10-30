@@ -226,10 +226,10 @@ local all_akex_grips = {
 --- Scope Mount ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_sm_cover" )
 --cover rail--
-for i, o_id in ipairs(all_akex_sight) do
+for id, o_id in pairs(all_akex_sight) do
 	self.parts.wpn_fps_ass_heffy_all_sm_cover.override[o_id] = {a_obj = "a_o_cover"}
 end
-for i, fl_id in ipairs(all_akex_fl) do
+for id, fl_id in pairs(all_akex_fl) do
 	if fl_id ~= "wpn_fps_addon_ris" then
 		self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override[fl_id] = {a_obj = "a_fl_war"}
 		self.parts.wpn_fps_ass_heffy_all_lfg_honor.override[fl_id]	 = {a_obj = "a_fl_honor"}
@@ -248,10 +248,10 @@ end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_st_moe", "wpn_fps_ass_heffy_all_stpa_gl" )
 --- Foregrips ---
 --Warrior--
-for i, ro_id in ipairs(all_akex_ro) do
+for id, ro_id in pairs(all_akex_ro) do
 	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
 end
-for i, ufg_id in ipairs(all_akex_upperforegrip) do
+for id, ufg_id in pairs(all_akex_upperforegrip) do
 	self:akpack_setup_forbid( ufg_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_sm_cover", "wpn_fps_ass_heffy_all_lfg_warrior" )
