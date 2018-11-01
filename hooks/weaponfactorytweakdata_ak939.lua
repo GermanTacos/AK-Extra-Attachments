@@ -320,15 +320,15 @@ local non_grp_stock = {
 --- Receiver aka Lower ---
 self:akpack_check_override( "part", "wpn_fps_ass_heffy_939_lr_ak9" )
 --Stock overrides--
-for i, st_id in ipairs(all_akex_stock) do
+for i, st_id in pairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id] = {a_obj = "a_s_akmsu"}
 end
-for i, st_id in ipairs(all_ak9stock) do
+for i, st_id in pairs(all_ak9stock) do
 	self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id] = self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id] or {}
 	self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id].override = self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id].override or {}
 end
-for i, st_id in ipairs(all_ak9stock) do
-	for i, sp_id in ipairs(all_akex3_stockpad) do
+for i, st_id in pairs(all_ak9stock) do
+	for i, sp_id in pairs(all_akex3_stockpad) do
 		log("AK-9_test..... cunt")
 		self.parts.wpn_fps_ass_heffy_939_lr_ak9.override[st_id].override[sp_id]  = {a_obj = "a_s_ak101"}
 	end
@@ -343,8 +343,8 @@ end
 --- LFG ---
 
 --- Stockpad ---
-for i, st_id in ipairs(non_grp_stock) do
-	for sp_id in ipairs(all_akex3_stockpad) do
+for i, st_id in pairs(non_grp_stock) do
+	for sp_id in pairs(all_akex3_stockpad) do
 		self:akpack_setup_forbid ( st_id, sp_id )
 	end
 end
