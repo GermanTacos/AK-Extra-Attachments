@@ -10,6 +10,7 @@
 - [x] Add forbid for extra long mags on the GP25
 - [x] Fix wrong suppression values
 - [x] Fix problems with AK101 (Warrior FG (god i hate that thing), stock pad position )
+- [ ] Remove front sight override by rear sights 
 - [ ] List of sounds to add:
 	 - [x] CSGO sounds (the good ones not the new ones)
 	 - [x] CSS sounds
