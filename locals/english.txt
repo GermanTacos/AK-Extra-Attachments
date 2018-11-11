@@ -12,20 +12,20 @@
 	"bm_menu_underbarrel" : "Underbarrel",
 	"bm_menu_underbarrel_plural" : "Underbarrels"
 	
-	"bm_wp_wpn_fps_ass_heffy_all_lfg_moe"     : "Magpul MOE Lower Foregrip",
-	"bm_wp_wpn_fps_ass_heffy_all_ufg_moe"     : "Magpul MOE Upper Foregrip",
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_moe"     : "Magpul MOE Lower Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_moe"     : "Magpul MOE Upper Handguard",
 	"bm_wp_wpn_fps_ass_heffy_all_st_moe"      : "Magpul MOE Stock",
 	"bm_wp_wpn_fps_ass_heffy_all_pg_moe"      : "Magpul MOE Grip",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_ufg_heat"    : "Heatshield Upper Foregrip",
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_heat"    : "Heatshield Upper Handguard",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_ulti"    : "UltiMAX Gas Block Rail",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_ufg_honor"   : "Honor Upper Foregrip",
-	"bm_wp_wpn_fps_ass_heffy_all_lfg_honor"   : "Honor Lower Foregrip",
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_honor"   : "Honor Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_honor"   : "Honor Lower Handguard",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_ufg_zenit"   : "ZenitCo B-10 Upper Foregrip",
-	"bm_wp_wpn_fps_ass_heffy_all_lfg_zenit"   : "ZenitCo B-10 Lower Foregrip",
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_zenit"   : "ZenitCo B-10 Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_zenit"   : "ZenitCo B-10 Lower Handguard",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_pg_rk3"      : "ZenitCo RK-3 Grip",
 	
@@ -123,7 +123,7 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_762_ch_ak117"    : "AK117 Bolt",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_lfg_warrior" : "Warrior Foregrip",
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_warrior" : "Warrior Handguard",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_st_sho"      : "Shovel Stock",
 	
