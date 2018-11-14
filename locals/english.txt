@@ -93,6 +93,8 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_bar_20"     : "Double Bar Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_box_20"     : "Phenolic Magazine",
 	
+	"bm_wp_wpn_fps_ass_heffy_556_m_circle_30"   : "Arsenal Polymer Magazine",
+	
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops" 		: "Cold War Sounds",
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops_desc" : "Sounds from a better time.",
 	
