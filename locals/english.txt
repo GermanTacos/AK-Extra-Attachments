@@ -80,20 +80,16 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_steel_1160A_desc"  : "Can't load those on the field...",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30"    : "30 Round Waffle Magazine",
-	
 	"bm_wp_wpn_fps_ass_heffy_762_m_banana_30"  : "Banana Magazine",
-	
 	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_30"    : "Magpul PMAG",
-	
 	"bm_wp_wpn_fps_ass_heffy_762_m_proto_30"   : "Slab Side Magazine",
-	
 	"bm_wp_wpn_fps_ass_heffy_762_m_fleur_30"   : "Fleur-de-lis Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_star_20"    : "Star Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_bar_20"     : "Double Bar Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_box_20"     : "Phenolic Magazine",
 	
-	"bm_wp_wpn_fps_ass_heffy_556_m_circle_30"   : "Arsenal Polymer Magazine",
+	"bm_wp_wpn_fps_ass_heffy_556_m_circle_30"  : "Arsenal Polymer Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops" 		: "Cold War Sounds",
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops_desc" : "Sounds from a better time.",
