@@ -415,6 +415,14 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_ass_heffy_556_m_weiger_30" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats extra_ammo="0" concealment="-1" recoil="2"/>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
 	<!-- STEEL MEME MAGS -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_762_m_steel_8" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_8" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -1161,6 +1169,18 @@
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_circle_30"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_circle_30"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_circle_30_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30_thq"/>
 		
 		<!-- AK 117 PTS -->
 		
