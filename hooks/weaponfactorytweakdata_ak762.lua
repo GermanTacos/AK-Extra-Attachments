@@ -276,6 +276,7 @@ local akmstock = {
 	"wpn_fps_ass_heffy_762_st_rk62"
 }
 --- Stock Pads ---
+--[[
 local akmstockpad = {
 	"wpn_fps_ass_heffy_762_sp_mpi",
 	"wpn_fps_ass_heffy_762_sp_2_mpi",
@@ -284,6 +285,7 @@ local akmstockpad = {
 	"wpn_fps_ass_heffy_762_stp_mpi",
 	"wpn_fps_ass_heffy_762_sp_amd63"
 }
+]]
 --- Fore Grip ---
 -- Default length --
 local all_ak47lowerforegrip = {
@@ -478,7 +480,6 @@ local non_grp_stock = {
 }
 local combined_stockpad = {
 	"wpn_fps_ass_heffy_762_sp_mpi",
-	"wpn_fps_ass_heffy_762_sp_2_mpi",
 	"wpn_fps_ass_heffy_762_sp_akm",
 	"wpn_fps_ass_heffy_762_sp_tabuk",
 	"wpn_fps_ass_heffy_762_stp_mpi",
