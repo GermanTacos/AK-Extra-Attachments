@@ -25,82 +25,10 @@
 ------------------------------------------------------------------------------------------
 
 
---[[
----------------------------------------------------------------
-----<A><K><E><X><T><R><A> -Functions- <A><K><E><X><T><R><A>----
----------------------------------------------------------------
+-----------------------------------------------------------
+----<A><K><E><X><T><R><A> -ERROR- <A><K><E><X><T><R><A>----
+-----------------------------------------------------------
 
---- Forbid Setup ---
-function WeaponFactoryTweakData:akpack_setup_forbid( mod_one, mod_two )
-	if self.parts[mod_one] and self.parts[mod_two] then
-		self.parts[mod_one].forbids = self.parts[mod_one].forbids or {}
-		table.insert(self.parts[mod_one].forbids, mod_two)
-		self.parts[mod_two].forbids = self.parts[mod_two].forbids or {}
-		table.insert(self.parts[mod_two].forbids, mod_one)
-	else
-		if not self.parts[mod_one] then
-			self:akpack_write_error( "forbid_setup", "fti", "part", mod_two )	
-		end
-		if not self.parts[mod_two] then
-			self:akpack_write_error( "forbid_setup", "fti", "part", mod_two )	
-		end
-	end
-end
-
---- Override Base ---
-function WeaponFactoryTweakData:akpack_check_override( mod_type, mod_woa ) 
-	if mod_type == "wpn" then
-		if self[mod_woa] then
-			self[mod_woa].override = self[mod_woa].override or {}
-		else 
-			self:akpack_write_error( "override_check", "fti", mod_type, mod_woa )
-		end
-	elseif mod_type == "part" then
-		if self.parts[mod_woa] then
-			self.parts[mod_woa].override = self.parts[mod_woa].override or {}
-		else 
-			self:akpack_write_error( "override_check", "fti", mod_type, mod_woa )
-		end
-	else
-		self:akpack_write_error( "override_check", "fti", "mod_type", mod_type )
-	end
-end
-
---- Adds Base ---
-function WeaponFactoryTweakData:akpack_check_adds( mod_type, mod_woa ) 
-	if mod_type == "wpn" then
-		if self[mod_woa] then
-			self[mod_woa].adds = self[mod_woa].adds or {}
-		else 
-			self:akpack_write_error( "adds_check", "fti", mod_type, mod_woa )
-		end
-	elseif mod_type == "part" then
-		if self.parts[mod_woa] then
-			self.parts[mod_woa].adds = self.parts[mod_woa].adds or {}
-		else 
-			self:akpack_write_error( "adds_check", "fti", mod_type, mod_woa )
-		end
-	else
-		self:akpack_write_error( "adds_check", "fti", "mod_type", mod_type )
-	end
-end
-
---- ERROR Base ---
-function WeaponFactoryTweakData:akpack_write_error( func, cause, error_id, value  )
-	if func and cause and error_id then 
-		-- fti = failed to index
-		if cause == "fti" and value then
-			if error_id == "part" then
-				log("AKEXTRA_ERROR: (" .. func .. ")Attempt to index Part ID: '" .. value .. "' (a nil value)")
-			elseif error_id == "wpn" then
-				log("AKEXTRA_ERROR: (" .. func .. ")Attempt to index Weapon ID: '" .. value .. "' (a nil value)")
-			elseif error_id == "mod_type" then
-				log("AKEXTRA_ERROR: (" .. func .. ")Attempt to index mod_type: '" .. value .. "' (a nil value)")
-			end
-		end
-	end
-end 
-]]
 Hooks:PostHook( WeaponFactoryTweakData, "init", "AKGOLDEXTRAModInit", function(self)
 
 ------------------------------------------------------------
@@ -166,6 +94,8 @@ if ( self.wpn_fps_ass_heffy_gold ) then
 -------------------------------------------------------------
 --- LFG ---
 --- Stockpad ---
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_gold_st_akms", "wpn_fps_ass_heffy_all_stpa_gl" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_gold_st_none", "wpn_fps_ass_heffy_all_stpa_gl" )
 --- FGs ---
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
