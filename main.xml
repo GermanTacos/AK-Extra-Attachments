@@ -438,9 +438,9 @@
 	
 	<WeaponMod id="wpn_fps_ass_heffy_556_m_weiger_30" based_on="wpn_fps_ass_flint_m_standard" type="magazine" unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo="0" concealment="-1" recoil="2"/>
-		<weapons>
+	<!--<weapons>
 			<value_node value="wpn_fps_ass_heffy_556"/>
-		</weapons>
+		</weapons>-->
 		<pcs/>
 	</WeaponMod>
 	
