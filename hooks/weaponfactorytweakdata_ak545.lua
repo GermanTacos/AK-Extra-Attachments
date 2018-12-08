@@ -11,7 +11,7 @@
 --                                                                                      --
 ------------------------------------------------------------------------------------------
 --																						--
---						  	 		   > [Functions]									--
+--						  	 		   > [ERROR]										--
 --									   > [Arrays]		   								--
 --									   > [Override]				    					--
 --									   > [Adds] 										--
@@ -29,7 +29,7 @@
 ---------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Functions- <A><K><E><X><T><R><A>----
 ---------------------------------------------------------------
-
+--[[
 --- Forbid Setup ---
 function WeaponFactoryTweakData:akpack_setup_forbid( mod_one, mod_two )
 	if self.parts[mod_one] and self.parts[mod_two] then
@@ -100,7 +100,7 @@ function WeaponFactoryTweakData:akpack_write_error( func, cause, error_id, value
 		end
 	end
 end 
-
+--]]
 Hooks:PostHook( WeaponFactoryTweakData, "init", "AK74EXTRAModInit", function(self)
 
 ------------------------------------------------------------
