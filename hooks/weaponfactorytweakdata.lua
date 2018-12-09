@@ -138,9 +138,7 @@ local all_akex_upperforegrip = {
 -- Default length --
 
 --- Front Sights ---
-local all_akex_fo = {
-	"wpn_fps_ass_heffy_556_fo_ak101"
-}
+
 --- Rear Sights ---
 local all_akex_ro = {
 	"wpn_fps_ass_heffy_all_ro_ins",
