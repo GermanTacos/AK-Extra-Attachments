@@ -407,11 +407,6 @@ local non_grp_stock = {
 	"wpn_fps_ass_heffy_all_st_sho"
 }
 local combined_stockpad = {
-	"wpn_fps_ass_heffy_762_sp_mpi",
-	"wpn_fps_ass_heffy_762_sp_akm",
-	"wpn_fps_ass_heffy_762_sp_tabuk",
-	"wpn_fps_ass_heffy_762_stp_mpi",
-	"wpn_fps_ass_heffy_762_sp_amd63",
 	"wpn_fps_ass_heffy_all_stpa_gl"
 }
 -- add extra stocks into default stocks --
