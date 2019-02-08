@@ -156,6 +156,20 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_t2_pts/wpn_fps_ass_heffy_762_pg_t2"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_t2_pts/wpn_fps_ass_heffy_762_pg_t2_thq"/>
 	
+	<!-- AKM WOOD PTS -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/akmwood_furniture_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/akmwood_furniture_nm"/>
+	
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/akmwood_furniture"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/akmwood_furniture_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood_thq"/>
+	
 	<!-- TARKOV PTS -->
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_laminate_pts/laminate_grip_df"/>
