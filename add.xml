@@ -170,6 +170,28 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_pg_akmwood_thq"/>
 	
+	<!-- IVAN GOES TO SPACE STATION PTS -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/ivan_grip_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/ivan_grip_nm"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/ivan_stock_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/ivan_stock_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_pg_ivan_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan_thq"/>
+	
 	<!-- TARKOV PTS -->
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_laminate_pts/laminate_grip_df"/>
@@ -482,6 +504,16 @@
 	<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30_thq"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/ivan_30_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/ivan_30_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30_thq"/>
 	
 	<!-- AK 117 PTS -->
 	
