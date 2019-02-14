@@ -98,6 +98,11 @@
 	"bm_wp_wpn_fps_ass_heffy_545_st_ivan"      : "Ivan Goes to Space Station Stock",
 	"bm_wp_wpn_fps_ass_heffy_545_pg_ivan"      : "Ivan Goes to Space Station Grip",
 	
+	"bm_wp_wpn_fps_ass_heffy_545_ufg_bop"      : "Anachronistic Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_545_lfg_bop"      : "Anachronistic Lower Handguard",
+	"bm_wp_wpn_fps_ass_heffy_545_ca_bop"       : "Anachronistic Carry Handle",
+	"bm_wp_wpn_fps_ass_heffy_545_ro_bop"       : "Anachronistic Rear Sight",
+	
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops" 		: "Cold War Sounds",
 	"bm_wp_wpn_fps_ass_heffy_762_so_blops_desc" : "Sounds from a better time.",
 	

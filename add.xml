@@ -192,6 +192,55 @@
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_ivan_pts/wpn_fps_ass_heffy_545_st_ivan_thq"/>
 	
+	<!-- BLACK OPS RPK PTS -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_body_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_body_nm"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_carry_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_carry_nm"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_handguard_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_handguard_nm"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_sight_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/bop_sight_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ufg_bop_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_lfg_bop_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ca_bop_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_rsb_bop_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_bop_pts/wpn_fps_ass_heffy_545_ro_bop_thq"/>
+	
 	<!-- TARKOV PTS -->
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_laminate_pts/laminate_grip_df"/>
