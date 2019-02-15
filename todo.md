@@ -11,6 +11,7 @@
 - [x] Fix wrong suppression values
 - [x] Fix problems with AK101 (Warrior FG (god i hate that thing), stock pad position )
 - [ ] Remove front sight override by rear sights 
+- [ ] Add dummy sight for stance correction
 - [ ] List of sounds to add:
 	 - [x] CSGO sounds (the good ones not the new ones)
 	 - [x] CSS sounds
@@ -32,3 +33,4 @@
 	 - [x] Metro 2033 sounds
 	 - [ ] Metro Last Light sounds
 	 - [ ] Rainbow Six: Siege sounds (Beryl M762)
+	 - [ ] Black Ops 1 (RPK)

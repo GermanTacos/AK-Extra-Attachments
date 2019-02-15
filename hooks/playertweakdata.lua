@@ -15,6 +15,10 @@ Hooks:PostHook( PlayerTweakData, "init", "AKEXTRAModStanceTweakData", function(s
 	self.stances.gl25_gl = deep_clone(self.stances.contraband)
 	local ironsight_translation = Vector3(0, -6, 1.56)
 	self.stances.gl25_gl.steelsight.shoulders.translation = self.stances.gl25_gl.steelsight.shoulders.translation + ironsight_translation 
-	
-	
+
+--RPK
+	self.stances.heffy_bo1_ads = deep_clone(self.stances.flint)
+	self.stances.heffy_bo1_ads.steelsight.shoulders.translation = Vector3(-10.26, -5.166, 4.29) 
+	self.stances.heffy_bo1_ads.steelsight.shoulders.rotation = Rotation(0, 0, 0) 
+
 end )
