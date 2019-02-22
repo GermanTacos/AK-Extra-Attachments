@@ -919,7 +919,7 @@
 				</steelsight>
 			</kick>
 			<shake fire_multiplier="0" fire_steelsight_multiplier="0"/>
-			<sounds fire="flamethrower_fire" stop_fire="flamethrower_stop" dryfire="flamethrower_dryfire"/>
+			<sounds fire="lpo_70_fire" stop_fire="lpo_70_stop" dryfire="flamethrower_dryfire"/>
 			<animations reload_name_id="contraband" equip_id="equip_contraband"/>
 		</weapon>
 		<factory id="wpn_fps_gl_lpo70_flamethrower" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
@@ -932,6 +932,8 @@
 	</Weapon>
 		
 	<Sounds directory="assets\sounds">
+		<sound id="lpo_70_fire" 	 path="lpo_70_fire.ogg" 	prefix="regular"/>
+		<sound id="lpo_70_stop" 	 path="lpo_70_stop.ogg" 	 	prefix="regular"/>
 		<sound id="ak47_fire_single" path="ak47_blops_fire.ogg"  	prefix="regular_a"/>
 		<sound id="ak47_fire_single" path="ak47_csgo_fire.ogg"		prefix="regular_c"/>
 		<sound id="ak47_fire_single" path="ak47_css_fire.ogg" 		prefix="regular_d"/>
