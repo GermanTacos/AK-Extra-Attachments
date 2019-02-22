@@ -155,6 +155,13 @@ if ( self.heffy_762 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Flamethrower ---	
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_gl_lpo70", 
+        base_a_obj = "a_b",
+		position = Vector3(0, 41, -0.5),
+		rotation = Rotation(0, 0, 0)
+	}) 
 end
 
 ---- AK 545 ----
@@ -270,6 +277,13 @@ if ( self.heffy_545 ) then
         position = Vector3( 0.1, 12, 1.3 ), 
         rotation = Rotation( 0, 2, 0 )
 	})
+--- Flamethrower ---	
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_gl_lpo70", 
+        base_a_obj = "a_b",
+		position = Vector3(0, 41, -0.5),
+		rotation = Rotation(0, 0, 0)
+	}) 
 end
 
 ---- AK 556 ----
@@ -346,6 +360,13 @@ if ( self.heffy_556 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Flamethrower ---	
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_gl_lpo70", 
+        base_a_obj = "a_b",
+		position = Vector3(0, 41, -0.5),
+		rotation = Rotation(0, 0, 0)
+	})
 end
 ---- AK 939 ----
 if ( self.heffy_939 ) then

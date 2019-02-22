@@ -861,28 +861,97 @@
     </WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_ex_gp25sight" based_on="wpn_fps_ass_flint_body_upperreceiver" a_obj="a_glo" type="extra" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
-	
-	<Sounds directory="assets">
-		<sound id="ak47_fire_single" path="sounds/ak47_blops_fire.ogg"  prefix="regular_a"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_csgo_fire.ogg"	prefix="regular_c"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_css_fire.ogg" 	prefix="regular_d"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_l4d2_fire.ogg" 	prefix="regular_e"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_kf1_fire.ogg" 	prefix="regular_f"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_metro2033_fire.ogg" 	prefix="regular_g"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_mohwf_fire.ogg" 	prefix="regular_h"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_mw2_fire.ogg" 	prefix="regular_i"/>
-		<sound id="ak47_fire_single" path="sounds/ak47_mw3_fire.ogg" 	prefix="regular_j"/>
-		<sound id="gold_fire_single" path="sounds/ak47_blops_fire.ogg"  prefix="regular_a"/>
-		<sound id="gold_fire_single" path="sounds/ak47_csgo_fire.ogg"	prefix="regular_c"/>
-		<sound id="gold_fire_single" path="sounds/ak47_css_fire.ogg" 	prefix="regular_d"/>
-		<sound id="gold_fire_single" path="sounds/ak47_l4d2_fire.ogg" 	prefix="regular_e"/>
-		<sound id="gold_fire_single" path="sounds/ak47_kf1_fire.ogg" 	prefix="regular_f"/>
-		<sound id="gold_fire_single" path="sounds/ak47_metro2033_fire.ogg" 	prefix="regular_g"/>
-		<sound id="gold_fire_single" path="sounds/ak47_mohwf_fire.ogg" 	prefix="regular_h"/>
-		<sound id="gold_fire_single" path="sounds/ak47_mw2_fire.ogg" 	prefix="regular_i"/>
-		<sound id="gold_fire_single" path="sounds/ak47_mw3_fire.ogg" 	prefix="regular_j"/>
-		<sound id="ak74_fire_single" path="sounds/ak74_bfbc2_fire.ogg" 	prefix="regular_c"/>
-		<sound id="ak74_fire_single" path="sounds/ak74_mw3_fire.ogg" 	prefix="regular_d"/>
+		
+
+<WeaponMod id="wpn_fps_upg_gl_lpo70" based_on="wpn_fps_ass_contraband_gl_m203" type="underbarrel" sub_type="grenade_launcher" a_obj="a_gl_lpo70" has_description="true" dlc="bbq" global_value="bbq" unit="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+	<stats concealment="-7" suppression="-20" spread="-1" recoil="2"/>
+	<bullet_objects amount="1" prefix="g_grenade_"/>
+	<animations bipod_reload="reload_ul" />
+	<weapon_hold_override bm_w_heffy_762="contraband"  bm_w_heffy_545="contraband"  bm_w_heffy_556="contraband" />
+	<weapon_stance_override bm_w_heffy_762="gl25_gl" bm_w_heffy_545="gl25_gl" bm_w_heffy_556="gl25_gl"/>
+	<weapons>
+		<value_node value="wpn_fps_ass_heffy_762"/>
+		<value_node value="wpn_fps_ass_heffy_545"/>
+		<value_node value="wpn_fps_ass_heffy_556"/>
+		<value_node value="wpn_fps_ass_heffy_gold"/>
+	</weapons>
+	<pcs/>
+</WeaponMod>
+
+	<Weapon>
+		<weapon id="lpo70_flamethrower" based_on="flamethrower_mk2" weapon_hold="contraband" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="2" FIRE_MODE="auto" ignore_damage_upgrades="true" DAMAGE="1" rays="12" single_flame_effect_duration ="1" flame_max_range="1250" panic_suppression_chance="0.6">
+			<categories>
+				<value_node value="flamethrower"/>
+			</categories>
+			<upgrade_blocks>
+				<weapon>
+					<value_node value="clip_ammo_increase"/>
+				</weapon>
+			</upgrade_blocks>
+			<stats damage="50" spread="1" recoil="10" alert_size="1" suppression="2"/>
+			<fire_dot_data dot_trigger_chance="75" dot_damage="30" dot_length="1.6" dot_trigger_max_distance="3000" dot_tick_period="0.5"/>
+			<timers reload_not_empty="2.45" reload_empty="2.45" unequip="0.6" equip="0.6" equip_underbarrel="0.4" unequip_underbarrel="0.4"/>
+			<use_data selection_index="3"/>
+			<AMMO_PICKUP>
+				<value_node value="0"/>
+				<value_node value="0"/>
+			</AMMO_PICKUP>
+			<fire_mode_data fire_rate="0.03"/>
+			<auto fire_rate="0.03"/>
+			<kick>
+				<standing>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+				</standing>
+				<crouching>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+				</crouching>
+				<steelsight>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+					<value_node value="0"/>
+				</steelsight>
+			</kick>
+			<shake fire_multiplier="0" fire_steelsight_multiplier="0"/>
+			<sounds fire="flamethrower_fire" stop_fire="flamethrower_stop" dryfire="flamethrower_dryfire"/>
+			<animations reload_name_id="contraband" equip_id="equip_contraband"/>
+		</weapon>
+		<factory id="wpn_fps_gl_lpo70_flamethrower" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
+			<default_blueprint>
+			</default_blueprint>
+			<uses_parts>
+			</uses_parts>
+		</factory>
+		<stance/>
+	</Weapon>
+		
+	<Sounds directory="assets\sounds">
+		<sound id="ak47_fire_single" path="ak47_blops_fire.ogg"  	prefix="regular_a"/>
+		<sound id="ak47_fire_single" path="ak47_csgo_fire.ogg"		prefix="regular_c"/>
+		<sound id="ak47_fire_single" path="ak47_css_fire.ogg" 		prefix="regular_d"/>
+		<sound id="ak47_fire_single" path="ak47_l4d2_fire.ogg" 		prefix="regular_e"/>
+		<sound id="ak47_fire_single" path="ak47_kf1_fire.ogg" 		prefix="regular_f"/>
+		<sound id="ak47_fire_single" path="ak47_metro2033_fire.ogg" prefix="regular_g"/>
+		<sound id="ak47_fire_single" path="ak47_mohwf_fire.ogg" 	prefix="regular_h"/>
+		<sound id="ak47_fire_single" path="ak47_mw2_fire.ogg" 		prefix="regular_i"/>
+		<sound id="ak47_fire_single" path="ak47_mw3_fire.ogg" 		prefix="regular_j"/>
+		<sound id="gold_fire_single" path="ak47_blops_fire.ogg" 	prefix="regular_a"/>
+		<sound id="gold_fire_single" path="ak47_csgo_fire.ogg"		prefix="regular_c"/>
+		<sound id="gold_fire_single" path="ak47_css_fire.ogg" 		prefix="regular_d"/>
+		<sound id="gold_fire_single" path="ak47_l4d2_fire.ogg" 		prefix="regular_e"/>
+		<sound id="gold_fire_single" path="ak47_kf1_fire.ogg" 		prefix="regular_f"/>
+		<sound id="gold_fire_single" path="ak47_metro2033_fire.ogg" prefix="regular_g"/>
+		<sound id="gold_fire_single" path="ak47_mohwf_fire.ogg" 	prefix="regular_h"/>
+		<sound id="gold_fire_single" path="ak47_mw2_fire.ogg" 		prefix="regular_i"/>
+		<sound id="gold_fire_single" path="ak47_mw3_fire.ogg" 		prefix="regular_j"/>
+		<sound id="ak74_fire_single" path="ak74_bfbc2_fire.ogg" 	prefix="regular_c"/>
+		<sound id="ak74_fire_single" path="ak74_mw3_fire.ogg" 		prefix="regular_d"/>
 	</Sounds>
 	
 	<Hooks directory="hooks">

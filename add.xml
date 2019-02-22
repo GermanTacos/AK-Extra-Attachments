@@ -740,6 +740,21 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ex_gp25sight"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ex_gp25sight_thq"/>
 	
+	<!-- LPO-70 PTS -->
+	<effect 		 path="effects/particles/weapons/lpo70_fire" load="true"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/lpo70_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/lpo70_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70"/>
+	<model           path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70"/>
+	<object          path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70"/>
+	<unit            path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70"/>
+	<material_config path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70"/>
+	<material_config path="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70_thq"/>
+	
+	
+	
 	<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_762_m_proto_30"/>
 	<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_762_m_steel_8"/>
 	<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_heffy_762_m_banana_30"/>
