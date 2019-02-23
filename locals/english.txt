@@ -33,8 +33,6 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_all_pg_sco"      : "ATI Scorpion Grip",
 	
-	"bm_wp_wpn_fps_ass_heffy_762_pg_t2"       : "Type II AK Grip",
-	
 	"bm_wp_wpn_fps_ass_heffy_762_pg_akmwood"  : "AKM Wooden Grip",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_pg_laminate"  : "AKM Battleworn Wood Grip",
