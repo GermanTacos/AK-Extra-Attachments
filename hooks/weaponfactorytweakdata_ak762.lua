@@ -138,7 +138,8 @@ local all_akex_grips = {
 	"wpn_fps_ass_heffy_all_pg_moe",
 	"wpn_fps_ass_heffy_all_pg_rk3",
 	"wpn_fps_ass_heffy_all_pg_rub",
-	"wpn_fps_ass_heffy_all_pg_sco"
+	"wpn_fps_ass_heffy_all_pg_sco",
+	"wpn_fps_ass_heffy_all_pg_akmwood"
 }
 
 ------------------------
