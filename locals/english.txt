@@ -17,6 +17,10 @@
 	"bm_wp_wpn_fps_ass_heffy_all_st_moe"      : "Magpul MOE Stock",
 	"bm_wp_wpn_fps_ass_heffy_all_pg_moe"      : "Magpul MOE Grip",
 	
+	"bm_wp_wpn_fps_ass_heffy_all_lfg_krebs"   : "Krebs Keymod Lower Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_krebs"   : "Krebs Keymod Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_mw_krebs"    : "Krebs AR-15 Magwell",
+	
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_heat"    : "Heatshield Upper Handguard",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_ulti"    : "UltiMAX Gas Block Rail",

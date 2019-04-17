@@ -39,6 +39,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AK74EXTRAModInit", function(sel
 --- Stocks ---
 local all_akex_stock = {
 	"wpn_fps_ass_heffy_all_st_moe",
+	"wpn_fps_ass_heffy_all_sad_alpha",
 	"wpn_fps_ass_heffy_all_st_sho",
 	"wpn_fps_ass_heffy_all_st_pkm"
 }

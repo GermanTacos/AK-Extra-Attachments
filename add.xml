@@ -32,6 +32,32 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_moe_pts/wpn_fps_ass_heffy_all_st_moe"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_moe_pts/wpn_fps_ass_heffy_all_st_moe_thq"/>
 	
+	<!-- KREBS PTS -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/krebs_body_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/krebs_body_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_lfg_krebs_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_ufg_krebs_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_krebs_pts/wpn_fps_ass_heffy_all_pg_krebs_thq"/>
+	
 	<!-- HEAT PTS -->
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/heat_furniture_df"/>
