@@ -40,6 +40,11 @@
 	"bm_wp_wpn_fps_ass_heffy_all_lfg_laminate" : "AKM Battleworn Wood Lower Handguard",
 	"bm_wp_wpn_fps_ass_heffy_all_st_laminate"  : "AKM Battleworn Wood Stock",
 	
+	"bm_wp_wpn_fps_ass_heffy_all_ufg_alpha"   : "Alpha Handguard",
+	"bm_wp_wpn_fps_ass_heffy_all_tr_alpha"    : "ALG Defense AKT-EL Trigger",
+	"bm_wp_wpn_fps_ass_heffy_all_sad_alpha"   : "Rifle Dynamics AR-15 Stock Adapter",
+	"bm_wp_wpn_fps_ass_heffy_all_ur_alpha"    : "Alpha Dust Cover",
+	
 	"bm_wp_wpn_fps_ass_heffy_762_fm_blops"    : "Cold War Firing Mechanism",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_ro_blops" 	  : "Cold War Sights",
