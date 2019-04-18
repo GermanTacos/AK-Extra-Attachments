@@ -265,6 +265,13 @@
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_ufg_alpha"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_ufg_alpha_thq"/>
 	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_lfg_alpha_thq"/>
+	
 	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_tr_alpha"/>
 	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_tr_alpha"/>
 	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_alpha_pts/wpn_fps_ass_heffy_all_tr_alpha"/>
