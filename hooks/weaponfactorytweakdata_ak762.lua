@@ -13,6 +13,7 @@
 --																						--
 --						  	 		   > [ERROR]										--
 --									   > [Arrays]		   								--
+--									   > [Attachments]				    				--
 --									   > [Override]				    					--
 --									   > [Adds] 										--
 --									   > [Forbids] 										--
@@ -35,6 +36,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AK47EXTRAModInit", function(sel
 ----<A><K><E><X><T><R><A> -Arrays- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 
+if ( self.wpn_fps_ass_heffy_762 ) then
 --- Stocks ---
 local all_akex_stock = {
 	"wpn_fps_ass_heffy_all_st_moe",
@@ -147,7 +149,6 @@ local all_akex_grips = {
 ---- END ARRAYS END ----
 ------------------------
 
-if ( self.wpn_fps_ass_heffy_762 ) then
 
 --- Lower ---
 local all_ak47lower = {
@@ -416,6 +417,12 @@ local combined_stockpad = {
 --	table.insert(akmstock, st_id)
 --end
 
+-----------------------------------------------------------------
+----<A><K><E><X><T><R><A> -Attachments- <A><K><E><X><T><R><A>----
+-----------------------------------------------------------------
+for _, part_id in pairs(ak_pack_extras_vanilla_attachments) do
+	table.insert(self.wpn_fps_ass_heffy_762.uses_parts, part_id)
+end
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------

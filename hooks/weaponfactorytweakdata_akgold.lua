@@ -13,6 +13,7 @@
 --																						--
 --						  	 		   > [ERROR]										--
 --									   > [Arrays]		   								--
+--									   > [Attachments]				    				--
 --									   > [Override]				    					--
 --									   > [Adds] 										--
 --									   > [Forbids] 										--
@@ -35,6 +36,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AKGOLDEXTRAModInit", function(s
 ----<A><K><E><X><T><R><A> -Arrays- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 
+if ( self.wpn_fps_ass_heffy_gold ) then
 --- Stocks ---
 --- Stock Pads ---
 --- Fore Grip ---
@@ -54,7 +56,6 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AKGOLDEXTRAModInit", function(s
 ---- END ARRAYS END ----
 ------------------------
 
-if ( self.wpn_fps_ass_heffy_gold ) then
 
 --- Stock Pads ---
 --- Fore Grip ---
@@ -71,6 +72,12 @@ if ( self.wpn_fps_ass_heffy_gold ) then
 --- Grips ---
 -----------------------------
 ------ Combined Arrays ------
+-----------------------------------------------------------------
+----<A><K><E><X><T><R><A> -Attachments- <A><K><E><X><T><R><A>----
+-----------------------------------------------------------------
+for _, part_id in pairs(ak_pack_extras_vanilla_attachments) do
+	table.insert(self.wpn_fps_ass_heffy_gold.uses_parts, part_id)
+end
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------

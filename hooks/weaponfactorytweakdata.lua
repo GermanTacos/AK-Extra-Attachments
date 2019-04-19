@@ -211,6 +211,15 @@ local all_akex_grips = {
 	"wpn_fps_ass_heffy_all_pg_rub",
 	"wpn_fps_ass_heffy_all_pg_sco"
 }
+
+ak_pack_extras_vanilla_attachments = {
+	"wpn_fps_upg_m4_s_standard",
+	"wpn_fps_upg_m4_s_pts",
+	"wpn_fps_upg_m4_s_crane",
+	"wpn_fps_upg_m4_s_mk46",
+	"wpn_fps_upg_m4_s_ubr",
+	"wpn_fps_snp_tti_s_vltor"
+}
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
