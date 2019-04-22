@@ -513,29 +513,29 @@ self:akpack_check_override( "part", "wpn_fps_ass_heffy_762_lr_m92" )
 for id, st_id in pairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id]  = {a_obj = "a_s_ak47"}
 	self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id] = {a_obj = "a_s_akmsu"}
-	self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id]   = {a_obj = "a_s_akmsu"}
 	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] = {a_obj = "a_s_akmsu"}
 end
+for id, st_id in pairs(ak_pack_extras_vanilla_attachments) do
+	self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id]  = {a_obj = "a_s_v_ak47"}
+	self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id] = {a_obj = "a_s_v_akmsu"}
+	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] = {a_obj = "a_s_v_akmsu"}
+end
 --Stockpad--
--- fucking overkill useless fucking retards what the fuck is wrong with you dickless pieces of shit motherfuckers
 for id, st_id in pairs(akmstock) do
 	self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id] = self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id] or {}
 	self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id] = self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id] or {}
 	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] = self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id] or {}
-	self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id] = self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id] or {}
 	self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override = self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override or {}
 	self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override = self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override or {}
 	self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override = self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override or {}
-	self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override = self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override or {}
 end
 for id, st_id in pairs(akmstock) do
-	if self.parts[st_id] then -- fuck this game
+	if self.parts[st_id] then
 		for id, sp_id in pairs(all_akex1_stockpad) do
 			if self.parts[sp_id] then
 				self.parts.wpn_fps_ass_heffy_762_lr_ak47.override[st_id].override[sp_id]  = {a_obj = "a_s_ak47"}
 				self.parts.wpn_fps_ass_heffy_762_lr_akmsu.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
 				self.parts.wpn_fps_ass_heffy_762_lr_ak103.override[st_id].override[sp_id] = {a_obj = "a_s_akmsu"}
-				self.parts.wpn_fps_ass_heffy_762_lr_m92.override[st_id].override[sp_id]   = {a_obj = "a_s_akmsu"}
 			end
 		end
 	end

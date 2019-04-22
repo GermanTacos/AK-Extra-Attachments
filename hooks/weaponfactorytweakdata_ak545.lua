@@ -375,6 +375,10 @@ for id, st_id in pairs(all_akex_stock) do
 	self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id]  = {a_obj = "a_s_ak74m"}
 	self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = {a_obj = "a_s_aks74u"}
 end
+for id, st_id in pairs(ak_pack_extras_vanilla_attachments) do
+	self.parts.wpn_fps_ass_heffy_545_lr_ak74m.override[st_id] = {a_obj = "a_s_v_akmsu"}
+	self.parts.wpn_fps_ass_heffy_545_lr_aks74u.override[st_id] = {a_obj = "a_s_v_akmsu"}
+end
 
 --- Bipods ---
 for id, bp_id in pairs(all_ak74bipod) do

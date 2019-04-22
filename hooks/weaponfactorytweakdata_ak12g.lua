@@ -13,6 +13,7 @@
 --																						--
 --						  	 		   > [ERROR]										--
 --									   > [Arrays]		   								--
+--									   > [Attachments]				    				--
 --									   > [Override]				    					--
 --									   > [Adds] 										--
 --									   > [Forbids] 										--
@@ -97,6 +98,14 @@ local all_akex_stock = {
 -----------------------------
 ------ Combined Arrays ------
 
+-----------------------------------------------------------------
+----<A><K><E><X><T><R><A> -Attachments- <A><K><E><X><T><R><A>----
+-----------------------------------------------------------------
+
+for _, part_id in pairs(ak_pack_extras_vanilla_attachments) do
+	table.insert(self.wpn_fps_sho_heffy_12g.uses_parts, part_id)
+end
+
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
@@ -106,6 +115,9 @@ self:akpack_check_override( "part", "wpn_fps_ass_heffy_939_lr_ak9" )
 --Stock overrides--
 for i, st_id in pairs(all_akex_stock) do
 	self.parts.wpn_fps_sho_heffy_12g_lr_saiga12.override[st_id] = {a_obj = "a_s_akmsu"}
+end
+for id, st_id in pairs(ak_pack_extras_vanilla_attachments) do
+	self.parts.wpn_fps_sho_heffy_12g_lr_saiga12.override[st_id] = {a_obj = "a_s_v_akmsu"}
 end
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
