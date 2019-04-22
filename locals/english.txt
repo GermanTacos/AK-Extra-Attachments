@@ -91,16 +91,19 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30"    : "30 Round Waffle Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_banana_30"  : "Banana Magazine",
-	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_30"    : "Magpul PMAG",
+	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_30"    : "Magpul PMAG 7.62",
 	"bm_wp_wpn_fps_ass_heffy_762_m_proto_30"   : "Slab Side Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_fleur_30"   : "Fleur-de-lis Magazine",
 	
+	"bm_wp_wpn_fps_ass_heffy_762_m_ak103_30"   : "AK-103 Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_star_20"    : "Star Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_bar_20"     : "Double Bar Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_box_20"     : "Phenolic Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_556_m_circle_30"  : "Arsenal Polymer Magazine",
 	"bm_wp_wpn_fps_ass_heffy_556_m_weiger_30"  : "German Weiger Magazine",
+	
+	"bm_wp_wpn_fps_ass_heffy_545_m_pmag_30"    : "Magpul PMAG 5.45",
 	
 	"bm_wp_wpn_fps_ass_heffy_545_m_ivan_30"    : "Ivan Goes to Space Station Magazine",
 	"bm_wp_wpn_fps_ass_heffy_545_st_ivan"      : "Ivan Goes to Space Station Stock",

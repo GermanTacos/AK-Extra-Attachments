@@ -479,6 +479,12 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_star_20"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_star_20_thq"/>
 	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_ak103_30"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_ak103_30"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_ak103_30"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_ak103_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_ak103_30_thq"/>
+	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/bar_20_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/bar_20_nm"/>
 	
@@ -615,6 +621,16 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_ivan_30_thq"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/pmag_30_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/pmag_30_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_pmag_30_thq"/>
 	
 	<!-- AK 117 PTS -->
 	
