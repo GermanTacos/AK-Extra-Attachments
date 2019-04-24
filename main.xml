@@ -566,6 +566,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -577,6 +578,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -588,6 +590,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -599,6 +602,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -610,6 +614,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -622,6 +627,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -633,6 +639,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -645,6 +652,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -657,6 +665,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -691,6 +700,9 @@
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_74"/>
+			<value_node value="wpn_fps_ass_ak12"/>
+			<value_node value="wpn_fps_ass_tilt"/>
+			<value_node value="wpn_fps_ass_aek971"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -700,6 +712,9 @@
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_74"/>
+			<value_node value="wpn_fps_ass_ak12"/>
+			<value_node value="wpn_fps_ass_tilt"/>
+			<value_node value="wpn_fps_ass_aek971"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -714,6 +729,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -726,6 +742,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -738,6 +755,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -750,6 +768,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -762,6 +781,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -774,6 +794,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -786,6 +807,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -799,6 +821,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -812,6 +835,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -829,6 +853,7 @@
 			<value_node value="wpn_fps_ass_akm"/>
 			<value_node value="wpn_fps_ass_akm_gold"/>
 			<value_node value="wpn_fps_smg_akmsu"/>
+			<value_node value="wpn_fps_ass_rk62"/>
 		</weapons>
 		<pcs/>
 	</WeaponMod>
