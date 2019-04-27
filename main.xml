@@ -1063,8 +1063,8 @@
 	<stats concealment="-7" suppression="-20" spread="-1" recoil="2"/>
 	<bullet_objects amount="1" prefix="g_grenade_"/>
 	<animations bipod_reload="reload_ul" />
-	<weapon_hold_override bm_w_heffy_762="contraband"  bm_w_heffy_545="contraband"  bm_w_heffy_556="contraband" />
-	<weapon_stance_override bm_w_heffy_762="gl25_gl" bm_w_heffy_545="gl25_gl" bm_w_heffy_556="gl25_gl"/>
+	<weapon_hold_override bm_w_heffy_762="contraband" bm_w_heffy_gold="contraband"  bm_w_heffy_545="contraband"  bm_w_heffy_556="contraband" />
+	<weapon_stance_override bm_w_heffy_762="gl25_gl" bm_w_heffy_gold="gl25_gl" bm_w_heffy_545="gl25_gl" bm_w_heffy_556="gl25_gl"/>
 	<weapons>
 		<value_node value="wpn_fps_ass_heffy_762"/>
 		<value_node value="wpn_fps_ass_heffy_545"/>

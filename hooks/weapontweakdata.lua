@@ -390,6 +390,15 @@ if ( self.x_heffy_939 ) then
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
 end
+---- Golden AKMS ----
+if ( self.heffy_gold ) then
+	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_gl_lpo70", 
+        base_a_obj = "a_b",
+		position = Vector3(0, 41, -0.5),
+		rotation = Rotation(0, 0, 0)
+	}) 
+end
 end)
 
 

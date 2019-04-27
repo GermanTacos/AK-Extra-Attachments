@@ -11,7 +11,7 @@
         <simulatorstack>
             <ager/>
             <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="1.6" teleport_cap="1" current_position="true" channel="local" normal_variation="0.14000000059605" teleport_event="false" positioner="box">
-                <box min="-5 13 -4.5" max="-5 13 -4.5" min_normal="0 0 0" max_normal="0 0 1"/>
+                <box min="-2.7 11 -8.3" max="-2.7 11 -8.3" min_normal="0 0 0" max_normal="0 0 1"/>
                 <normal min_velocity="1" max_velocity="1"/>
             </teleporter>
             <worldtransform transform_rotations="false"/>
@@ -48,7 +48,7 @@
         <simulatorstack>
             <anglevelocityintegrator/>
             <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="0.5" teleport_cap="1" current_position="true" channel="world" normal_variation="0.14000000059605" teleport_event="false" positioner="box">
-                <box min="-5 13 -4.5" max="-5 13 -4.5" min_normal="0 0 0" max_normal="0 0 1"/>
+                <box min="-2.7 11 -8.3" max="-2.7 11 -8.3" min_normal="0 0 0" max_normal="0 0 1"/>
                 <normal min_velocity="1" max_velocity="1"/>
             </teleporter>
             <ager/>
