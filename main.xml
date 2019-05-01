@@ -1092,8 +1092,8 @@
 				<value_node value="0"/>
 				<value_node value="0"/>
 			</AMMO_PICKUP>
-			<fire_mode_data fire_rate="0.03"/>
-			<auto fire_rate="0.03"/>
+			<fire_mode_data fire_rate="0.0666666666666667"/>
+			<auto fire_rate="0.0666666666666667"/>
 			<kick>
 				<standing>
 					<value_node value="0"/>
