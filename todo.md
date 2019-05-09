@@ -12,6 +12,8 @@
 - [x] Fix problems with AK101 (Warrior FG (god i hate that thing), stock pad position )
 - [ ] Remove front sight override by rear sights 
 - [ ] Add dummy sight for stance correction
+- [ ] Add Wieger 941-945 assets
+- [ ] Add round rear sight (https://cdn.discordapp.com/attachments/368376677266489344/576057965388365837/iipsrv.png)
 - [ ] List of sounds to add:
 	 - [x] CSGO sounds (the good ones not the new ones)
 	 - [x] CSS sounds
