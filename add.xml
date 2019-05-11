@@ -426,6 +426,18 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_ins"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_ins_thq"/>
 	
+	<!-- SAND PTS -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/sand_ak74_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/sand_ak74_nm"/>
+	
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand"/>
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ro_sand_thq"/>
+	
 	<!-- STOCK PAD PTS -->
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/stock_pad_df"/>

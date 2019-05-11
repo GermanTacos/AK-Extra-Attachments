@@ -62,6 +62,7 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_all_ro_blops" 	  : "Cold War Sights",
 	"bm_wp_wpn_fps_ass_heffy_all_ro_ins"      : "Middle East Sights",
+	"bm_wp_wpn_fps_ass_heffy_all_ro_sand"     : "Insurgent Sights",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_stpa_gl"     : "Grenade Launcher Recoil Pad",
 	
