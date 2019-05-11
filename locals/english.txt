@@ -10,7 +10,13 @@
 	"bm_menu_front_sight_plural" : "Front Sights",
 	
 	"bm_menu_underbarrel" 		 : "Underbarrel",
-	"bm_menu_underbarrel_plural" : "Underbarrels"
+	"bm_menu_underbarrel_plural" : "Underbarrels",
+	
+	"bm_wp_wpn_fps_ass_heffy_762_fh_tank"     : "7.62 Tank Compensator",
+	"bm_wp_wpn_fps_ass_heffy_762_fh_fun"      : "7.62 Funnel Compensator",
+	
+	"bm_wp_wpn_fps_ass_heffy_545_fh_tank"     : "5.45 Tank Compensator",
+	"bm_wp_wpn_fps_ass_heffy_545_fh_fun"      : "5.45 Funnel Compensator",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_lfg_moe"     : "Magpul MOE Lower Handguard",
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_moe"     : "Magpul MOE Upper Handguard",
@@ -20,6 +26,7 @@
 	"bm_wp_wpn_fps_ass_heffy_all_lfg_krebs"   : "Krebs Keymod Lower Handguard",
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_krebs"   : "Krebs Keymod Upper Handguard",
 	"bm_wp_wpn_fps_ass_heffy_all_mw_krebs"    : "Krebs AR-15 Magwell",
+	"bm_wp_wpn_fps_ass_heffy_all_fh_krebs"    : "Krebs Four-Prong Flash Hider",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_ufg_heat"    : "Heatshield Upper Handguard",
 	
