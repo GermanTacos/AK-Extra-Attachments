@@ -426,52 +426,20 @@ for id, st_id in pairs(all_ak74stock) do
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74", "wpn_fps_ass_heffy_all_gl_gp25" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74_folded", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_545_bp_rpk74_folded", "wpn_fps_upg_gl_lpo70" )
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 --- Foregrips ---
 -- Warrior --
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.weapon_stance_override.bm_w_heffy_545 	= "warrior_ads"
 --- Magazine ---
-self.parts.wpn_fps_ass_heffy_762_m_helical_64.weapon_hold_override = {
-			bm_w_heffy_545 = "contraband"
-		}
-self.parts.wpn_fps_ass_heffy_762_m_helical_64.weapon_stance_override = {
-			bm_w_heffy_545 = "gl25_gl"
-		}
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -----------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Underbarrel- <A><K><E><X><T><R><A>----
 -----------------------------------------------------------------
 
---- GP25 ---
-if BeardLib.Utils:FindMod("Custom underbarrels for custom weapons") then
-	self:cufcw_setup_underbarrel( 
-		"wpn_fps_ass_heffy_545",
-		"bm_w_heffy_545",
-		"wpn_fps_ass_heffy_all_gl_gp25",
-		"bm_w_contraband_m203",
-		"units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25",
-		"units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_gl_gp25",
-		"gl25_gl",
-		{
-			translation = Vector3(-1.05, 0, -12.67),
-			rotation = Rotation(0, 0, -45)
-		}
-	)
-else 
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_hold_override.bm_w_heffy_545	= "contraband"
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_stance_override.bm_w_heffy_545 	= "gl25_gl"
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.override.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_heffy_545 = {
-				translation = Vector3(-1.05, 0, -12.67),
-				rotation = Rotation(0, 0, -45)
-			}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.override.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_heffy_545 = {
-				translation = Vector3(-1.05, 0, -12.67),
-				rotation = Rotation(0, 0, -45)
-			}
-end
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Tweaks- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------

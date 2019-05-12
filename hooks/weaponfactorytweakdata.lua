@@ -270,13 +270,18 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_90", "wpn_fps_ass_heffy
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_100", "wpn_fps_ass_heffy_all_gl_gp25" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_180", "wpn_fps_ass_heffy_all_gl_gp25" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_260", "wpn_fps_ass_heffy_all_gl_gp25" )
+
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_helical_64", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_90", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_100", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_180", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_steel_260", "wpn_fps_upg_gl_lpo70" )
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 
 --- Foregrips ---
 -- Warrior --
-self.parts.wpn_fps_ass_heffy_all_lfg_warrior.weapon_stance_override = {}
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -- Underbarrel sight --
@@ -284,24 +289,6 @@ self.parts.wpn_fps_ass_heffy_all_gl_gp25_sight_up.stance_mod = {}
 -----------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Underbarrel- <A><K><E><X><T><R><A>----
 -----------------------------------------------------------------
-
---- GP25 ---
-if not BeardLib.Utils:FindMod("Custom underbarrels for custom weapons") then
-	self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_gl_gp25" )
-
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.perks = {"underbarrel"}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_hold_override = {
-		bm_w_contraband_m203 = "contraband"
-	}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_stance_override = {
-		bm_w_contraband_m203 = "gl25_gl"
-	}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.weapon_reload_override = {
-		bm_w_contraband_m203 = "contraband"
-	}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.override.wpn_fps_upg_o_45rds = {stance_mod = {}}
-	self.parts.wpn_fps_ass_heffy_all_gl_gp25.override.wpn_fps_upg_o_45rds_v2 = {stance_mod = {}}
-end
 
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Tweaks- <A><K><E><X><T><R><A>----
