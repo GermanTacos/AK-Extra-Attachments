@@ -153,6 +153,15 @@
 	"bm_wp_wpn_fps_ass_heffy_762_so_hob" 		: "Heat of Battle Sounds",
 	"bm_wp_wpn_fps_ass_heffy_762_so_hob_desc" 	: "...",
 	
+	"bm_wp_wpn_fps_sho_heffy_12g_so_hob" 		: "Heat of Battle Sounds",
+	"bm_wp_wpn_fps_sho_heffy_12g_so_hob_desc" 	: "...",
+	
+	"bm_wp_wpn_fps_ass_heffy_556_so_hob" 		: "Heat of Battle Sounds",
+	"bm_wp_wpn_fps_ass_heffy_556_so_hob_desc" 	: "...",
+	
+	"bm_wp_wpn_fps_ass_heffy_545_so_hob" 		: "Heat of Battle Sounds",
+	"bm_wp_wpn_fps_ass_heffy_545_so_hob_desc" 	: "...",
+	
 	"bm_wp_wpn_fps_ass_heffy_545_so_mw3" 		: "MW3 Sounds",
 	"bm_wp_wpn_fps_ass_heffy_545_so_mw3_desc"  	: "...",
 	
