@@ -108,26 +108,26 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AKEXTRAModInit", function(self)
 ------------------------------------------------------------
 
 --- Stocks ---
-local all_akex_stock = {
+all_akex_stock = {
 	"wpn_fps_ass_heffy_all_st_moe",
 	"wpn_fps_ass_heffy_all_sad_alpha",
 	"wpn_fps_ass_heffy_all_st_sho",
 	"wpn_fps_ass_heffy_all_st_pkm"
 }
 --- Stock Pads ---
-local all_akex_stockpad = {
+all_akex_stockpad = {
 	"wpn_fps_ass_heffy_all_stpa_gl"
 }
 --- Fore Grip ---
 -- Upper --
-local all_akex_lowerforegrip = {
+all_akex_lowerforegrip = {
 	"wpn_fps_ass_heffy_all_lfg_moe",
 	"wpn_fps_ass_heffy_all_lfg_honor",
 	"wpn_fps_ass_heffy_all_lfg_zenit",
 	"wpn_fps_ass_heffy_all_lfg_warrior",
 }
 -- Lower --
-local all_akex_upperforegrip = {
+all_akex_upperforegrip = {
 	"wpn_fps_ass_heffy_all_ufg_heat",
 	"wpn_fps_ass_heffy_all_ufg_moe",
 	"wpn_fps_ass_heffy_all_ufg_ulti",
@@ -141,13 +141,15 @@ local all_akex_upperforegrip = {
 --- Front Sights ---
 
 --- Rear Sights ---
-local all_akex_ro = {
+all_akex_ro = {
 	"wpn_fps_ass_heffy_all_ro_ins",
 	"wpn_fps_ass_heffy_all_ro_blops",
+	"wpn_fps_ass_heffy_545_ro_bop",
+	"wpn_fps_ass_heffy_all_ro_sand"
 }
 
 --- Barrel Extensions --
-local all_akex_ext = {
+all_akex_ext = {
 	"wpn_fps_upg_ns_ass_smg_large",
 	"wpn_fps_upg_ns_ass_smg_medium",
 	"wpn_fps_upg_ns_ass_smg_small",
@@ -162,7 +164,7 @@ local all_akex_ext = {
 }
 
 --- Gadgets (Flashlights/Lasers) ---
-local all_akex_fl = {
+all_akex_fl = {
 	"wpn_fps_upg_fl_ass_smg_sho_peqbox",
 	"wpn_fps_upg_fl_ass_smg_sho_surefire",
 	"wpn_fps_upg_fl_ass_peq15",
@@ -172,7 +174,7 @@ local all_akex_fl = {
 }
 
 --- Sights ---
-local all_akex_sight = {
+all_akex_sight = {
 	"wpn_fps_upg_o_specter",
 	"wpn_fps_upg_o_aimpoint",
 	"wpn_fps_upg_o_aimpoint_2",
@@ -188,24 +190,9 @@ local all_akex_sight = {
 	"wpn_fps_upg_o_rx30",
 	"wpn_fps_upg_o_spot"
 }
-local nonacog_aksight = {
-	"wpn_fps_upg_o_specter",
-	"wpn_fps_upg_o_aimpoint",
-	"wpn_fps_upg_o_aimpoint_2",
-	"wpn_fps_upg_o_docter",
-	"wpn_fps_upg_o_eotech",
-	"wpn_fps_upg_o_t1micro",
-	"wpn_fps_upg_o_cmore",
-	"wpn_fps_upg_o_cs",
-	"wpn_fps_upg_o_eotech_xps",
-	"wpn_fps_upg_o_reflex",
-	"wpn_fps_upg_o_rx01",
-	"wpn_fps_upg_o_rx30",
-	"wpn_fps_upg_o_spot"
-}
 
 --- Grips ---
-local all_akex_grips = {
+all_akex_grips = {
 	"wpn_fps_ass_heffy_all_pg_moe",
 	"wpn_fps_ass_heffy_all_pg_rk3",
 	"wpn_fps_ass_heffy_all_pg_rub",
@@ -258,6 +245,7 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_st_moe", "wpn_fps_ass_heffy_all
 --Warrior--
 for id, ro_id in pairs(all_akex_ro) do
 	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
+	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_ur_alpha" )
 end
 for id, ufg_id in pairs(all_akex_upperforegrip) do
 	self:akpack_setup_forbid( ufg_id, "wpn_fps_ass_heffy_all_lfg_warrior" )

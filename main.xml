@@ -431,6 +431,26 @@
 			<wpn_fps_ass_heffy_545_ro_ak74  unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_heffy_556_ro_ak101 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_heffy_gold_ro_akm  unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_heffy_762_int1_ak47>
+				<stance_mod>
+					<wpn_fps_ass_heffy_762 rotation="0.00305432 -0 -0 -0.999995" translation="0 -5 1.45"/>
+				</stance_mod>
+			</wpn_fps_ass_heffy_762_int1_ak47>
+			<wpn_fps_ass_heffy_545_int1_ak74>
+				<stance_mod>
+					<wpn_fps_ass_heffy_545 rotation="0.00305432 -0 -0 -0.999995" translation="0 -5 1.45"/>
+				</stance_mod>
+			</wpn_fps_ass_heffy_545_int1_ak74>
+			<wpn_fps_ass_heffy_556_int1_ak101>
+				<stance_mod>
+					<wpn_fps_ass_heffy_556 rotation="0.00305432 -0 -0 -0.999995" translation="0 -5 1.45"/>
+				</stance_mod>
+			</wpn_fps_ass_heffy_556_int1_ak101>
+			<wpn_fps_ass_heffy_gold_int1_akm>
+				<stance_mod>
+					<wpn_fps_ass_heffy_gold rotation="0.00305432 -0 -0 -0.999995" translation="0 -5 1.45"/>
+				</stance_mod>
+			</wpn_fps_ass_heffy_gold_int1_akm>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
