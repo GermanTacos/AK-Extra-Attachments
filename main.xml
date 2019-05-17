@@ -1,4 +1,4 @@
-<table name="AK Extra Attachments" image="guis/akextra" color="Color(0.8, 0.2, 0.8)">
+<table name="AK Extra Attachments" priority="2" image="guis/akextra" color="Color(0.8, 0.2, 0.8)">
 
 	<Localization directory="locals" default="english.txt"/>
 	
