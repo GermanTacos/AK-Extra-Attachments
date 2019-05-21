@@ -290,9 +290,12 @@ end
 --- Stockpad ---
 for i, st_id in pairs(non_grp_stock) do
 	for sp_id in pairs(all_akex3_stockpad) do
-		self:akpack_setup_forbid ( st_id, sp_id )
+		self:akpack_setup_forbid( st_id, sp_id )
 	end
 end
+--- Dick ---
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_sm_cover", "wpn_fps_ass_heffy_939_ro_tiss")
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_sm_cover", "wpn_fps_ass_heffy_939_ufg_tiss")
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
