@@ -233,6 +233,7 @@ local nonacog_aksight = {
 	"wpn_fps_upg_o_rx30",
 	"wpn_fps_upg_o_spot"
 }
+
 --- Grips ---
 local ak9grips = {
 	"wpn_fps_ass_heffy_939_pg_ak9"

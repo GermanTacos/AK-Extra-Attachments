@@ -207,6 +207,46 @@ ak_pack_extras_vanilla_attachments = {
 	"wpn_fps_upg_m4_s_ubr",
 	"wpn_fps_snp_tti_s_vltor"
 }
+
+--- CAFCW aka better later then never also holy shit this actually works ---
+if attach_tables then
+	for _, md_id in pairs(attach_tables.Barrel_Extensions) do
+		if self.parts[md_id] then
+			table.insert(all_akex_ext, md_id)
+		end
+	end
+	for _, md_id in pairs(attach_tables.Suppressors) do
+		if self.parts[md_id] then
+			table.insert(all_akex_ext, md_id)
+		end
+	end
+	for _, fl_id in pairs(attach_tables.Gadgets) do
+		if self.parts[fl_id] then
+			table.insert(all_akex_fl, fl_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.ACOG) do
+		if self.parts[o_id] then
+			table.insert(all_akex_sight, o_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.Custom) do
+		if self.parts[o_id] then
+			table.insert(all_akex_sight, o_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.Specter) do
+		if self.parts[o_id] then
+			table.insert(all_akex_sight, o_id)
+		end
+	end
+	for _, st_id in pairs(attach_tables.AR15_Stocks) do
+		if self.parts[st_id] then
+			table.insert(ak_pack_extras_vanilla_attachments, st_id)
+		end
+	end
+end
+
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------
