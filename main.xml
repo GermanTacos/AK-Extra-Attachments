@@ -372,6 +372,7 @@
 			<value_node value="wpn_fps_ass_heffy_556"/>
 			<value_node value="wpn_fps_ass_heffy_gold"/>
 		</weapons>
+		<forbids/>
 		<pcs/>
 	</WeaponMod>
 	

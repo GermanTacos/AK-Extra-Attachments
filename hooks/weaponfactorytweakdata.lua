@@ -245,6 +245,14 @@ if attach_tables then
 			table.insert(ak_pack_extras_vanilla_attachments, st_id)
 		end
 	end
+	if attach_tables.Custom_AK then --safety (since that thing doesn't exist in older versions)
+		for _, o_id in pairs(attach_tables.Custom_AK) do
+			if self.parts[o_id] then
+				table.insert(self.parts.wpn_fps_ass_heffy_all_sm_cover.forbids, o_id)
+				table.insert(self.parts.wpn_fps_ass_heffy_545_ro_bop.forbids, o_id)
+			end
+		end
+	end
 end
 
 --------------------------------------------------------------
