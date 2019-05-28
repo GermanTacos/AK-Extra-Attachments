@@ -256,6 +256,10 @@ if attach_tables then
 	end
 end
 
+if self.parts.wpn_fps_upg_o_thersig then
+	table.insert(all_akex_sight, "wpn_fps_upg_o_thersig")
+end
+
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
 --------------------------------------------------------------

@@ -145,6 +145,15 @@ self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lfgc
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_rsb_ak47 	= {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_ro_akm  	= {unit="units/mods/weapons/wpn_fps_ass_heffy_all_warrior_pts/wpn_fps_ass_heffy_all_ro_warrior_s"}
 self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_upg_o_ak47_scopemount 	= {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+-- Double overrides for lowers that change the RSB
+--[[ stupid fucking asshole retard motherfucking bullshit game
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_akm = {}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_akm.override = deep_clone(self.parts.wpn_fps_ass_heffy_762_lr_akm.override)
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_akm.override.wpn_fps_ass_heffy_762_rsb_ak47 = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_ak103 = {}
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_ak103.override = deep_clone(self.parts.wpn_fps_ass_heffy_762_lr_ak103.override)
+self.parts.wpn_fps_ass_heffy_all_lfg_warrior.override.wpn_fps_ass_heffy_762_lr_ak103.override.wpn_fps_ass_heffy_762_rsb_ak47 = {unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_762_rsb_warrior"}
+]]
 --- Barrel ---
 -- Other length barrel barrel extension overrides --
 -- Other length barrel Front Sight overrides --
@@ -208,12 +217,16 @@ for id, ufg_id in pairs(all_ak47upperforegrip) do
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akmsu", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_m92", "wpn_fps_ass_heffy_all_lfg_warrior" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_ak103", "wpn_fps_ass_heffy_all_lfg_warrior" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akm", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_ro_m92", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_upg_o_ak47_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 
 for id, ro_id in pairs(all_ak47ro) do
-	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
-	self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_ur_alpha" )
+	if ro_id ~= "wpn_fps_ass_heffy_762_ro_akm" then
+		self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
+		self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_ur_alpha" )
+	end
 end
 
 --- Stockpad ---
