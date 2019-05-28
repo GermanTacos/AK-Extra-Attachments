@@ -223,7 +223,7 @@ for id, st_id in pairs(non_grp_stock) do
 	end
 end
 for id, sp_id in pairs(all_akex_stockpad) do
-	self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_st_ak47", sp_id )
+	table.insert(self.parts.wpn_fps_ass_heffy_762_st_ak47.forbids, sp_id)
 end
 
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk", "wpn_fps_ass_heffy_all_gl_gp25" )

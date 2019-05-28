@@ -110,7 +110,7 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_box_20"     : "Phenolic Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_556_m_circle_30"  : "Arsenal Polymer Magazine",
-	"bm_wp_wpn_fps_ass_heffy_556_m_weiger_30"  : "German Weiger Magazine",
+	"bm_wp_wpn_fps_ass_heffy_556_m_wieger_30"  : "Wieger StG-940 Magazine",
 	
 	"bm_wp_wpn_fps_ass_heffy_545_m_pmag_30"    : "Magpul PMAG 5.45",
 	

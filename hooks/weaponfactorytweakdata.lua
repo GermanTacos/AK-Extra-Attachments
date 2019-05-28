@@ -112,7 +112,8 @@ all_akex_stock = {
 	"wpn_fps_ass_heffy_all_st_moe",
 	"wpn_fps_ass_heffy_all_sad_alpha",
 	"wpn_fps_ass_heffy_all_st_sho",
-	"wpn_fps_ass_heffy_all_st_pkm"
+	"wpn_fps_ass_heffy_all_st_pkm",
+	"wpn_fps_ass_heffy_545_st_ivan"
 }
 --- Stock Pads ---
 all_akex_stockpad = {
@@ -289,6 +290,9 @@ end
 --- Stocks ---
 --Magpul moe--
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_st_moe", "wpn_fps_ass_heffy_all_stpa_gl" )
+for id, st_id in pairs(ak_pack_extras_vanilla_attachments) do
+	self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_stpa_gl", st_id )
+end
 --- Foregrips ---
 --Warrior--
 for id, ro_id in pairs(all_akex_ro) do

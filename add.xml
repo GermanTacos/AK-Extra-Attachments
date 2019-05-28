@@ -665,17 +665,17 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_circle_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_circle_30_thq"/>
 	
-	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_df"/>
-	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_nm"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wieger_30_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wieger_30_nm"/>
 	
-	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30"/>
-	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/weiger_30_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wieger_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wieger_30_thq"/>
 	
-	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
-	<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
-	<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
-	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30"/>
-	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_weiger_30_thq"/>
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_wieger_30"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_wieger_30"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_wieger_30"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_wieger_30"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_wieger_30_thq"/>
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/ivan_30_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/ivan_30_nm"/>
