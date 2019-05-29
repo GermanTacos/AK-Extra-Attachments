@@ -513,6 +513,18 @@
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_30_thq"/>
 	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_20"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_20"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_20"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_20"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_20_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_10"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_10"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_10"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_10"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_pmag_10_thq"/>
+	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/fleur_30_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/fleur_30_nm"/>
 	
