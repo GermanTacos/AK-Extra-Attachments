@@ -101,8 +101,8 @@
 	"bm_wp_wpn_fps_ass_heffy_762_m_alum_30"    : "30 Round Waffle Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_banana_30"  : "Banana Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_30"    : "Magpul PMAG 30 7.62",
-	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_20"    : "Magpul PMAG 10 7.62",
-	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_10"    : "Magpul PMAG 20 7.62",
+	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_20"    : "Magpul PMAG 20 7.62",
+	"bm_wp_wpn_fps_ass_heffy_762_m_pmag_10"    : "Magpul PMAG 10 7.62",
 	"bm_wp_wpn_fps_ass_heffy_762_m_proto_30"   : "Slab Side Magazine",
 	"bm_wp_wpn_fps_ass_heffy_762_m_fleur_30"   : "Fleur-de-lis Magazine",
 	
