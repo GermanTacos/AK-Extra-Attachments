@@ -1289,7 +1289,8 @@
 		<stats concealment="-6" suppression="0" recoil="2" spread="-1" total_ammo_mod="-5" />
 		<bullet_objects amount="1" prefix="g_grenade_"/>
 		<animations bipod_reload="reload_ul" />
-		<custom_stats ammo_pickup_max_mul="0.7" ammo_pickup_min_mul="0.8"/>
+	<!--	<custom_stats ammo_pickup_max_mul="0.7" ammo_pickup_min_mul="0.8"/>  why is this here?-->
+		<custom_stats/>
 		<override>
 			<wpn_fps_ass_heffy_all_ex_gp25sight unit="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_ex_gp25sight"/>
 		</override>
