@@ -1313,6 +1313,9 @@
 			<wpn_fps_ass_heffy_939 translation="5.3 -2 4.9" rotation="0 -5 0"/>
 		</stance_mod>
 		<override/>
+		<requires>
+			<value_node value="wpn_fps_ass_heffy_all_gl_gp25"/>
+		</requires>
 		<adds>
 			<value_node value="wpn_fps_ass_heffy_all_ex_gp25sight"/>
 		</adds>
@@ -1328,20 +1331,20 @@
 	<WeaponMod id="wpn_fps_ass_heffy_all_ex_gp25sight" based_on="wpn_fps_ass_flint_body_upperreceiver" a_obj="a_glo" type="extra" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 		
 
-<WeaponMod id="wpn_fps_upg_gl_lpo70" based_on="wpn_fps_ass_contraband_gl_m203" type="underbarrel" sub_type="grenade_launcher" a_obj="a_gl_lpo70" has_description="true" dlc="bbq" global_value="bbq" unit="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
-	<stats concealment="-7" suppression="-20" spread="-1" recoil="2"/>
-	<bullet_objects amount="1" prefix="g_grenade_"/>
-	<animations bipod_reload="reload_ul" />
-	<weapon_hold_override bm_w_heffy_762="contraband" bm_w_heffy_gold="contraband"  bm_w_heffy_545="contraband"  bm_w_heffy_556="contraband" />
-	<weapon_stance_override bm_w_heffy_762="gl25_gl" bm_w_heffy_gold="gl25_gl" bm_w_heffy_545="gl25_gl" bm_w_heffy_556="gl25_gl"/>
-	<weapons>
-		<value_node value="wpn_fps_ass_heffy_762"/>
-		<value_node value="wpn_fps_ass_heffy_545"/>
-		<value_node value="wpn_fps_ass_heffy_556"/>
-		<value_node value="wpn_fps_ass_heffy_gold"/>
-	</weapons>
-	<pcs/>
-</WeaponMod>
+	<WeaponMod id="wpn_fps_upg_gl_lpo70" based_on="wpn_fps_ass_contraband_gl_m203" type="underbarrel" sub_type="grenade_launcher" a_obj="a_gl_lpo70" has_description="true" dlc="bbq" global_value="bbq" unit="units/mods/weapons/wpn_fps_upg_gl_lpo70_pts/wpn_fps_upg_gl_lpo70" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats concealment="-7" suppression="-20" spread="-1" recoil="2"/>
+		<bullet_objects amount="1" prefix="g_grenade_"/>
+		<animations bipod_reload="reload_ul" />
+		<weapon_hold_override bm_w_heffy_762="contraband" bm_w_heffy_gold="contraband"  bm_w_heffy_545="contraband"  bm_w_heffy_556="contraband" />
+		<weapon_stance_override bm_w_heffy_762="gl25_gl" bm_w_heffy_gold="gl25_gl" bm_w_heffy_545="gl25_gl" bm_w_heffy_556="gl25_gl"/>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_gold"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
 
 	<Weapon>
 		<weapon id="lpo70_flamethrower" based_on="flamethrower_mk2" weapon_hold="contraband" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="2" FIRE_MODE="auto" ignore_damage_upgrades="true" DAMAGE="1" rays="12" single_flame_effect_duration ="1" flame_max_range="1250" panic_suppression_chance="0.6">

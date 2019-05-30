@@ -66,6 +66,8 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_all_stpa_gl"     : "Grenade Launcher Recoil Pad",
 	
+	"bm_wp_wpn_fps_upg_gl_lpo70" 			: "LPO-70 Flamethrower",
+	
 	"bm_wp_wpn_fps_ass_heffy_all_gl_gp25" 			: "GP-25 Grenade Launcher",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_gl_gp25_sight_up" 	: "GP-25 Sight",
