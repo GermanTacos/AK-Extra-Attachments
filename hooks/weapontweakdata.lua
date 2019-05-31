@@ -155,6 +155,13 @@ if ( self.heffy_762 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("heffy_762", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
 --- Flamethrower ---	
 	self:SetupAttachmentPoint("heffy_762", {
 		name = "a_gl_lpo70", 
@@ -269,6 +276,13 @@ if ( self.heffy_545 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("heffy_545", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
 	
 --- Magazines ---
 	self:SetupAttachmentPoint("heffy_545", {
@@ -360,6 +374,13 @@ if ( self.heffy_556 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("heffy_556", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
 --- Flamethrower ---	
 	self:SetupAttachmentPoint("heffy_556", {
 		name = "a_gl_lpo70", 
@@ -378,6 +399,13 @@ if ( self.heffy_939 ) then
         position = Vector3( 0, -7, 0 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("heffy_939", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
 end
 ---- Akimbo AK 939 ----
 if ( self.x_heffy_939 ) then
@@ -387,6 +415,13 @@ if ( self.x_heffy_939 ) then
 		name = "a_o_cover", 
         base_a_obj = "a_o", 
         position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("x_heffy_939", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	}) 
 end

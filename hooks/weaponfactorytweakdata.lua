@@ -290,6 +290,7 @@ self:akpack_check_override( "part", "wpn_fps_ass_heffy_all_sm_cover" )
 --cover rail--
 for id, o_id in pairs(all_akex_sight) do
 	self.parts.wpn_fps_ass_heffy_all_sm_cover.override[o_id] = {a_obj = "a_o_cover"}
+	self.parts.wpn_fps_ass_heffy_all_ur_alpha.override[o_id] = {a_obj = "a_o_alpha"}
 end
 for id, fl_id in pairs(all_akex_fl) do
 	if fl_id ~= "wpn_fps_addon_ris" then
@@ -321,6 +322,7 @@ for id, ufg_id in pairs(all_akex_upperforegrip) do
 	self:akpack_setup_forbid( ufg_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
 end
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_sm_cover", "wpn_fps_ass_heffy_all_lfg_warrior" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_ur_alpha", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_all_gl_gp25_sight_up", "wpn_fps_ass_heffy_all_lfg_warrior" )
 --- Underbarrel ---
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_m_helical_64", "wpn_fps_ass_heffy_all_gl_gp25" )
