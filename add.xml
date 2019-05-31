@@ -802,6 +802,17 @@
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_ak47_thq"/>
 	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/all_akm_body_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/all_akm_body_nm"/>
+	
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm"/>
+	<model           path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm"/>
+	<object          path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm"/>
+	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm"/>
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/wpn_fps_ass_heffy_all_lfgc_akm_thq"/>
+	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/ak74m_body_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_all_shared_pts/ak74m_body_nm"/>
 	

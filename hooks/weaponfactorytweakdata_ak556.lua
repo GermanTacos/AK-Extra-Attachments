@@ -41,7 +41,8 @@ if ( self.wpn_fps_ass_heffy_556 ) then
 ------ Combined Arrays ------
 local non_grp_stock = {
 	"wpn_fps_ass_heffy_all_st_moe",
-	"wpn_fps_ass_heffy_all_st_sho"
+	"wpn_fps_ass_heffy_all_st_sho",
+	"wpn_fps_ass_heffy_556_st_none"
 }
 
 -----------------------------------------------------------------
