@@ -123,6 +123,9 @@ for id, st_id in pairs(all_ak101stock) do
 		self.parts.wpn_fps_ass_heffy_556_lr_ak101.override[st_id].override[sp_id]  = {a_obj = "a_s_ak101"}
 	end
 end
+for i, lr_id in pairs(all_ak101lower) do
+	self.parts[lr_id].override.wpn_fps_ass_heffy_762_pg_akmwood = {a_obj="a_g_akm"}
+end
 ----------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Adds- <A><K><E><X><T><R><A>----
 ----------------------------------------------------------
