@@ -1349,7 +1349,7 @@
 	</WeaponMod>
 
 	<Weapon>
-		<weapon id="lpo70_flamethrower" based_on="flamethrower_mk2" weapon_hold="contraband" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="2" FIRE_MODE="auto" ignore_damage_upgrades="true" DAMAGE="1" rays="12" single_flame_effect_duration ="1" flame_max_range="1250" panic_suppression_chance="0.6">
+		<weapon id="lpo70_flamethrower" based_on="flamethrower_mk2" weapon_hold="contraband" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="3" FIRE_MODE="auto" ignore_damage_upgrades="true" DAMAGE="1" rays="12" single_flame_effect_duration ="1" flame_max_range="1250" panic_suppression_chance="0.6">
 			<categories>
 				<value_node value="flamethrower"/>
 			</categories>
