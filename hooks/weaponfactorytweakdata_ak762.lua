@@ -249,6 +249,12 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk_folded", "wpn_fps_ass_he
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk", "wpn_fps_upg_gl_lpo70" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_bp_rpk_folded", "wpn_fps_upg_gl_lpo70" )
 
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_vg_amd63", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_vg_amd63", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_vg_amd65", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_vg_amd65", "wpn_fps_upg_gl_lpo70" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lfg_md90", "wpn_fps_ass_heffy_all_gl_gp25" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lfg_md90", "wpn_fps_upg_gl_lpo70" )
 --- FGs ---
 for id, lr_id in pairs(akmsulower) do
 	if lr_id ~= "wpn_fps_ass_heffy_762_lr_ak103" then

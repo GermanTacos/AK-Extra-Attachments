@@ -127,6 +127,11 @@ all_akex_lowerforegrip = {
 	"wpn_fps_ass_heffy_all_lfg_honor",
 	"wpn_fps_ass_heffy_all_lfg_zenit",
 	"wpn_fps_ass_heffy_all_lfg_warrior",
+	"wpn_fps_ass_heffy_all_lfg_krebs",
+	"wpn_fps_ass_heffy_all_lfg_zenit",
+	"wpn_fps_ass_heffy_545_lfg_bop",
+	"wpn_fps_ass_heffy_all_lfg_alpha",
+	"wpn_fps_ass_heffy_all_lfg_laminate"
 }
 -- Lower --
 all_akex_upperforegrip = {
@@ -135,6 +140,10 @@ all_akex_upperforegrip = {
 	"wpn_fps_ass_heffy_all_ufg_ulti",
 	"wpn_fps_ass_heffy_all_ufg_honor",
 	"wpn_fps_ass_heffy_all_ufg_zenit",
+	"wpn_fps_ass_heffy_all_ufg_krebs",
+	"wpn_fps_ass_heffy_545_ufg_bop",
+	"wpn_fps_ass_heffy_all_ufg_alpha",
+	"wpn_fps_ass_heffy_all_ufg_laminate"
 }
 
 --- Barrel ---
