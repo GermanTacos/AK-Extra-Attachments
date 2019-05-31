@@ -113,7 +113,8 @@ all_akex_stock = {
 	"wpn_fps_ass_heffy_all_sad_alpha",
 	"wpn_fps_ass_heffy_all_st_sho",
 	"wpn_fps_ass_heffy_all_st_pkm",
-	"wpn_fps_ass_heffy_545_st_ivan"
+	"wpn_fps_ass_heffy_545_st_ivan",
+	"wpn_fps_ass_heffy_all_st_laminate"
 }
 --- Stock Pads ---
 all_akex_stockpad = {
@@ -197,7 +198,11 @@ all_akex_grips = {
 	"wpn_fps_ass_heffy_all_pg_moe",
 	"wpn_fps_ass_heffy_all_pg_rk3",
 	"wpn_fps_ass_heffy_all_pg_rub",
-	"wpn_fps_ass_heffy_all_pg_sco"
+	"wpn_fps_ass_heffy_all_pg_sco",
+	"wpn_fps_ass_heffy_all_pg_saw",
+	"wpn_fps_ass_heffy_762_pg_akmwood",
+	"wpn_fps_ass_heffy_545_pg_ivan",
+	"wpn_fps_ass_heffy_all_pg_laminate"
 }
 
 ak_pack_extras_vanilla_attachments = {

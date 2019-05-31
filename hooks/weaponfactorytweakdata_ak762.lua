@@ -222,6 +222,10 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akm", "wpn_fps_ass_heffy_all
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_ro_m92", "wpn_fps_ass_heffy_all_lfg_warrior" )
 self:akpack_setup_forbid( "wpn_fps_upg_o_ak47_l_scopemount", "wpn_fps_ass_heffy_all_lfg_warrior" )
 
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_akmsu", "wpn_fps_ass_heffy_all_ur_alpha" )
+self:akpack_setup_forbid( "wpn_fps_ass_heffy_762_lr_m92", "wpn_fps_ass_heffy_all_ur_alpha" )
+self:akpack_setup_forbid( "wpn_fps_upg_o_ak47_l_scopemount", "wpn_fps_ass_heffy_all_ur_alpha" )
+
 for id, ro_id in pairs(all_ak47ro) do
 	if ro_id ~= "wpn_fps_ass_heffy_762_ro_akm" then
 		self:akpack_setup_forbid( ro_id, "wpn_fps_ass_heffy_all_lfg_warrior" )
