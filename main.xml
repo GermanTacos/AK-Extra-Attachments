@@ -607,7 +607,6 @@
 		<stats concealment="-2" damage="2" spread="0" recoil="3"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
-			<value_node value="wpn_fps_ass_heffy_939"/>
 			<value_node value="wpn_fps_ass_heffy_gold"/>
 		</weapons>
 		<pcs/>
@@ -617,7 +616,6 @@
 		<stats concealment="-3" damage="0" spread="2" recoil="1"/>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
-			<value_node value="wpn_fps_ass_heffy_939"/>
 			<value_node value="wpn_fps_ass_heffy_gold"/>
 		</weapons>
 		<pcs/>
