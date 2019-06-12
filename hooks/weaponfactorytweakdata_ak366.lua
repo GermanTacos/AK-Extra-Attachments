@@ -36,7 +36,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "VPO209EXTRAModInit", function(s
 ----<A><K><E><X><T><R><A> -Arrays- <A><K><E><X><T><R><A>----
 ------------------------------------------------------------
 
-if ( self.wpn_fps_ass_heffy_366 ) then
+if ( self.wpn_fps_sho_heffy_366 ) then
 --- Stocks ---
 --- Stock Pads ---
 --- Fore Grip ---
@@ -76,7 +76,7 @@ if ( self.wpn_fps_ass_heffy_366 ) then
 ----<A><K><E><X><T><R><A> -Attachments- <A><K><E><X><T><R><A>----
 -----------------------------------------------------------------
 for _, part_id in pairs(ak_pack_extras_vanilla_attachments) do
-	table.insert(self.wpn_fps_ass_heffy_366.uses_parts, part_id)
+	table.insert(self.wpn_fps_sho_heffy_366.uses_parts, part_id)
 end
 --------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Override- <A><K><E><X><T><R><A>----
@@ -101,7 +101,7 @@ end
 -------------------------------------------------------------
 --- LFG ---
 --- Stockpad ---
-self:akpack_setup_forbid( "wpn_fps_ass_heffy_366_st_none", "wpn_fps_ass_heffy_all_stpa_gl" )
+self:akpack_setup_forbid( "wpn_fps_sho_heffy_366_st_none", "wpn_fps_ass_heffy_all_stpa_gl" )
 --- FGs ---
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----
@@ -111,7 +111,7 @@ self:akpack_setup_forbid( "wpn_fps_ass_heffy_366_st_none", "wpn_fps_ass_heffy_al
 --- Stance overrides by barrels ---
 --- Vanilla sights ---
 -- Underbarrel sight
-self.parts.wpn_fps_ass_heffy_all_gl_gp25_sight_up.stance_mod.wpn_fps_ass_heffy_366 = {
+self.parts.wpn_fps_ass_heffy_all_gl_gp25_sight_up.stance_mod.wpn_fps_sho_heffy_366 = {
 				translation = Vector3(4.3, -2, 4),
 				rotation = Rotation(0, -3.5, 0)
 			}
