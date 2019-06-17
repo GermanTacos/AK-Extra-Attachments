@@ -468,6 +468,9 @@
 	
 	<!-- MAGAZINE PTS -->
 	
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/steel_30_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/steel_30_nm"/>
+	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/alum_30_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/alum_30_nm"/>
 	
@@ -500,6 +503,8 @@
 	<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_banana_30"/>
 	<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_banana_30"/>
 	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_banana_30_thq"/>
+	
+	<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_steel_30"/>
 	
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/pmag_30_df"/>
 	<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/pmag_30_nm"/>
