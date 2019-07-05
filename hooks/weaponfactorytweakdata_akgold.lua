@@ -103,6 +103,8 @@ end
 --- Stockpad ---
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_gold_st_akms", "wpn_fps_ass_heffy_all_stpa_gl" )
 self:akpack_setup_forbid( "wpn_fps_ass_heffy_gold_st_none", "wpn_fps_ass_heffy_all_stpa_gl" )
+
+self:akpack_setup_forbid( "wpn_fps_upg_o_gold_l_scopemount", "wpn_fps_ass_heffy_all_ur_alpha" )
 --- FGs ---
 ------------------------------------------------------------
 ----<A><K><E><X><T><R><A> -Stance- <A><K><E><X><T><R><A>----

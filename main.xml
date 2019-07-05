@@ -465,6 +465,7 @@
 			<value_node value="wpn_fps_upg_o_ak74_scopemount"/>
 			<value_node value="wpn_fps_upg_o_ak101_scopemount"/>
 			<value_node value="wpn_fps_upg_o_ak9_scopemount"/>
+			<value_node value="wpn_fps_upg_o_gold_scopemount"/>
 		</forbids>
 		<stance_mod>
 			<wpn_fps_ass_heffy_762 rotation="0 0 0 -1" translation="0 0 0.9"/>

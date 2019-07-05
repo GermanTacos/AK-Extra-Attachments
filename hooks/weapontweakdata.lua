@@ -428,6 +428,39 @@ end
 ---- Golden AKMS ----
 if ( self.heffy_gold ) then
 	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_fl_honor", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.4, 0, -2.2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_fl_zenit", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.55, 2, -2.3 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_fl_war", 
+        base_a_obj = "a_fl", 
+        position = Vector3( -0.3, 0, -2.2 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+--- Scope Mount ---
+-- cover rail --
+	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_o_cover", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, 0 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+--- Alpha Cover --
+	self:SetupAttachmentPoint("heffy_gold", {
+		name = "a_o_alpha", 
+        base_a_obj = "a_o", 
+        position = Vector3( 0, -7, -0.4 ), 
+        rotation = Rotation( 0, 0, 0 ) 
+	}) 
+	self:SetupAttachmentPoint("heffy_gold", {
 		name = "a_gl_lpo70", 
         base_a_obj = "a_b",
 		position = Vector3(0, 41, -0.5),
