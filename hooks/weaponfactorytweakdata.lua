@@ -160,6 +160,13 @@ all_akex_ro = {
 }
 
 --- Barrel Extensions --
+akex_ext = {
+	"wpn_fps_ass_heffy_all_fh_krebs",
+	"wpn_fps_ass_heffy_762_fh_tank",
+	"wpn_fps_ass_heffy_762_fh_fun",
+	"wpn_fps_ass_heffy_545_fh_tank",
+	"wpn_fps_ass_heffy_545_fh_fun"
+}
 all_akex_ext = {
 	"wpn_fps_upg_ns_ass_smg_large",
 	"wpn_fps_upg_ns_ass_smg_medium",
@@ -171,7 +178,12 @@ all_akex_ext = {
 	"wpn_fps_upg_ass_ns_jprifles",
 	"wpn_fps_upg_ass_ns_linear",
 	"wpn_fps_upg_ass_ns_surefire",
-	"wpn_fps_upg_ass_ns_battle"
+	"wpn_fps_upg_ass_ns_battle",
+	"wpn_fps_ass_heffy_all_fh_krebs",
+	"wpn_fps_ass_heffy_762_fh_tank",
+	"wpn_fps_ass_heffy_762_fh_fun",
+	"wpn_fps_ass_heffy_545_fh_tank",
+	"wpn_fps_ass_heffy_545_fh_fun"
 }
 
 --- Gadgets (Flashlights/Lasers) ---
