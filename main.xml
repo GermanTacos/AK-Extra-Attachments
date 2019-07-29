@@ -641,7 +641,9 @@
 	<!-- BLACK OPS - 750RPM FULL AUTO -->
 	<WeaponMod id="wpn_fps_ass_heffy_762_fm_blops" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="custom" sub_type="autofire" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 	   <stats concealment="0" damage="-8" spread="0" recoil="1"/>
-	   <custom_stats rof_mult="1.25"/> 
+		<override_weapon>
+			<fire_mode_data fire_rate="0.08"/>
+		</override_weapon>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_762"/>
 			<value_node value="wpn_fps_ass_heffy_gold"/>
